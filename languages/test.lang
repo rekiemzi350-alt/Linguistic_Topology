@@ -1,0 +1,40 @@
+# A simple test language for the LTA
+
+name: Test Language
+
+# --- Number names ---
+0: z
+1: a
+2: bb
+3: ccc
+4: dddd
+5: eeeee
+6: ffffff
+7g: ggggggg
+8: hhhhhhhh
+9: iiiiiiiii
+10: jjjjjjjjjj
+11: k
+12: l
+13: m
+14: n
+15: o
+16: p
+17: q
+18: r
+19: s
+
+# --- Tens ---
+20: twenty
+30: thirty
+40: forty
+50: fifty
+60: sixty
+70: seventy
+80: eighty
+90: ninety
+
+# --- Keywords ---
+hundred: hundred
+ten_sep: y
+
