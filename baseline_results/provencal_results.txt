@@ -1,0 +1,8 @@
+
+--- Analysis for: Provencal ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 81% of numbers converge here.
+     -> Ends in pattern: ...(753, 774, 795)
+  River #2: 1% of numbers converge here.
+     -> Ends in pattern: ...(7, 10, 14)

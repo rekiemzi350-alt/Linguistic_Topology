@@ -1,0 +1,26 @@
+name: Oromo
+# Generated Language File
+
+ten_sep:  
+
+1: tokko
+2: lama
+3: sadi
+4: afur
+5: shan
+6: jaha
+7: torba
+8: saddeet
+9: sagal
+10: kudhan
+11: kudhantokko # Auto-Generated Generic Patch
+12: kudhanlama # Auto-Generated Generic Patch
+13: kudhansadi # Auto-Generated Generic Patch
+14: kudhanafur # Auto-Generated Generic Patch
+15: kudhanshan # Auto-Generated Generic Patch
+16: kudhanjaha # Auto-Generated Generic Patch
+17: kudhantorba # Auto-Generated Generic Patch
+18: kudhansaddeet # Auto-Generated Generic Patch
+19: kudhansagal # Auto-Generated Generic Patch
+20: digdama
+100: dhibba

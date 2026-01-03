@@ -1,0 +1,38 @@
+
+--- Analysis for: Chinese (Traditional) ---
+Structure: 17 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 13% of numbers converge here.
+     -> Ends in pattern: ...(38, 39, 40)
+  River #2: 7% of numbers converge here.
+     -> Ends in pattern: ...(9, 10, 11)
+  River #3: 6% of numbers converge here.
+     -> Ends in pattern: ...(48, 49, 50)
+  River #4: 6% of numbers converge here.
+     -> Ends in pattern: ...(58, 59, 60)
+  River #5: 6% of numbers converge here.
+     -> Ends in pattern: ...(68, 69, 70)
+  River #6: 6% of numbers converge here.
+     -> Ends in pattern: ...(78, 79, 80)
+  River #7: 6% of numbers converge here.
+     -> Ends in pattern: ...(88, 89, 90)
+  River #8: 1% of numbers converge here.
+     -> Ends in pattern: ...(269, 271, 273)
+  River #9: 1% of numbers converge here.
+     -> Ends in pattern: ...(271, 273, 275)
+  River #10: 1% of numbers converge here.
+     -> Ends in pattern: ...(273, 275, 277)
+  River #11: 1% of numbers converge here.
+     -> Ends in pattern: ...(275, 277, 279)
+  River #12: 1% of numbers converge here.
+     -> Ends in pattern: ...(277, 279, 281)
+  River #13: 1% of numbers converge here.
+     -> Ends in pattern: ...(279, 281, 283)
+  River #14: 1% of numbers converge here.
+     -> Ends in pattern: ...(281, 283, 285)
+  River #15: 1% of numbers converge here.
+     -> Ends in pattern: ...(283, 285, 287)
+  River #16: 1% of numbers converge here.
+     -> Ends in pattern: ...(285, 287, 289)
+  River #17: 1% of numbers converge here.
+     -> Ends in pattern: ...(287, 289, 291)

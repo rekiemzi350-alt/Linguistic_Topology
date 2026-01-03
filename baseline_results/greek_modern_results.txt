@@ -1,0 +1,14 @@
+
+--- Analysis for: Greek ---
+Structure: 5 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 42% of numbers converge here.
+     -> Ends in pattern: ...(774, 785, 794)
+  River #2: 5% of numbers converge here.
+     -> Ends in pattern: ...(754, 765, 774)
+  River #3: 3% of numbers converge here.
+     -> Ends in pattern: ...(765, 774, 785)
+  River #4: 2% of numbers converge here.
+     -> Ends in pattern: ...(745, 754, 765)
+  River #5: 1% of numbers converge here.
+     -> Ends in pattern: ...(42, 45, 50)

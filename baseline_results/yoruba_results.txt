@@ -1,0 +1,42 @@
+
+--- Analysis for: Yoruba ---
+Structure: 19 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 10% of numbers converge here.
+     -> Ends in pattern: ...(781, 789, 796)
+  River #2: 7% of numbers converge here.
+     -> Ends in pattern: ...(674, 681, 689)
+  River #3: 7% of numbers converge here.
+     -> Ends in pattern: ...(681, 689, 696)
+  River #4: 6% of numbers converge here.
+     -> Ends in pattern: ...(668, 674, 681)
+  River #5: 4% of numbers converge here.
+     -> Ends in pattern: ...(689, 696, 702)
+  River #6: 3% of numbers converge here.
+     -> Ends in pattern: ...(702, 708, 714)
+  River #7: 3% of numbers converge here.
+     -> Ends in pattern: ...(708, 714, 717)
+  River #8: 3% of numbers converge here.
+     -> Ends in pattern: ...(717, 720, 727)
+  River #9: 3% of numbers converge here.
+     -> Ends in pattern: ...(720, 727, 737)
+  River #10: 3% of numbers converge here.
+     -> Ends in pattern: ...(737, 749, 756)
+  River #11: 3% of numbers converge here.
+     -> Ends in pattern: ...(749, 756, 762)
+  River #12: 3% of numbers converge here.
+     -> Ends in pattern: ...(762, 768, 774)
+  River #13: 3% of numbers converge here.
+     -> Ends in pattern: ...(768, 774, 781)
+  River #14: 2% of numbers converge here.
+     -> Ends in pattern: ...(696, 702, 708)
+  River #15: 2% of numbers converge here.
+     -> Ends in pattern: ...(714, 717, 720)
+  River #16: 2% of numbers converge here.
+     -> Ends in pattern: ...(727, 737, 749)
+  River #17: 2% of numbers converge here.
+     -> Ends in pattern: ...(756, 762, 768)
+  River #18: 2% of numbers converge here.
+     -> Ends in pattern: ...(774, 781, 789)
+  River #19: 1% of numbers converge here.
+     -> Ends in pattern: ...(662, 668, 674)

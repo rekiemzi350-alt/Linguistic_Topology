@@ -1,0 +1,22 @@
+
+--- Analysis for: Tagalog ---
+Structure: 9 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 18% of numbers converge here.
+     -> Ends in pattern: ...(774, 784, 794)
+  River #2: 5% of numbers converge here.
+     -> Ends in pattern: ...(56, 62, 70)
+  River #3: 2% of numbers converge here.
+     -> Ends in pattern: ...(46, 52, 60)
+  River #4: 1% of numbers converge here.
+     -> Ends in pattern: ...(46, 52, 60)
+  River #5: 1% of numbers converge here.
+     -> Ends in pattern: ...(46, 52, 60)
+  River #6: 1% of numbers converge here.
+     -> Ends in pattern: ...(46, 52, 60)
+  River #7: 1% of numbers converge here.
+     -> Ends in pattern: ...(46, 52, 60)
+  River #8: 1% of numbers converge here.
+     -> Ends in pattern: ...(66, 72, 80)
+  River #9: 1% of numbers converge here.
+     -> Ends in pattern: ...(76, 82, 90)

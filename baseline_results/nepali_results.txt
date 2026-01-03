@@ -1,0 +1,42 @@
+
+--- Analysis for: Nepali ---
+Structure: 19 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 5% of numbers converge here.
+     -> Ends in pattern: ...(46, 47, 50)
+  River #2: 4% of numbers converge here.
+     -> Ends in pattern: ...(56, 57, 60)
+  River #3: 4% of numbers converge here.
+     -> Ends in pattern: ...(66, 67, 70)
+  River #4: 4% of numbers converge here.
+     -> Ends in pattern: ...(76, 77, 80)
+  River #5: 4% of numbers converge here.
+     -> Ends in pattern: ...(86, 87, 90)
+  River #6: 3% of numbers converge here.
+     -> Ends in pattern: ...(584, 591, 597)
+  River #7: 2% of numbers converge here.
+     -> Ends in pattern: ...(7, 10, 12)
+  River #8: 2% of numbers converge here.
+     -> Ends in pattern: ...(34, 37, 40)
+  River #9: 2% of numbers converge here.
+     -> Ends in pattern: ...(36, 37, 40)
+  River #10: 2% of numbers converge here.
+     -> Ends in pattern: ...(577, 584, 591)
+  River #11: 2% of numbers converge here.
+     -> Ends in pattern: ...(591, 597, 604)
+  River #12: 1% of numbers converge here.
+     -> Ends in pattern: ...(36, 37, 40)
+  River #13: 1% of numbers converge here.
+     -> Ends in pattern: ...(36, 37, 40)
+  River #14: 1% of numbers converge here.
+     -> Ends in pattern: ...(544, 551, 557)
+  River #15: 1% of numbers converge here.
+     -> Ends in pattern: ...(551, 557, 564)
+  River #16: 1% of numbers converge here.
+     -> Ends in pattern: ...(557, 564, 571)
+  River #17: 1% of numbers converge here.
+     -> Ends in pattern: ...(564, 571, 577)
+  River #18: 1% of numbers converge here.
+     -> Ends in pattern: ...(571, 577, 584)
+  River #19: 1% of numbers converge here.
+     -> Ends in pattern: ...(597, 604, 608)

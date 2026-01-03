@@ -1,0 +1,34 @@
+name: Latvian
+# Generated Language File
+
+hundred: simts
+ten_sep:  
+
+0: nulle
+1: viens
+2: divi
+3: trīs
+4: četri
+5: pieci
+6: seši
+7: septiņi
+8: astoņi
+9: deviņi
+10: desmit
+11: vienpadsmit
+12: divpadsmit
+13: trīspadsmit
+14: četrpadsmit
+15: piecpadsmit
+16: sešpadsmit
+17: septiņpadsmit
+18: astoņpadsmit
+19: deviņpadsmit
+20: divdesmit
+30: trīsdesmit
+40: četrdesmit
+50: piecdesmit
+60: sešdesmit
+70: septiņdesmit
+80: astoņdesmit
+90: deviņdesmit

@@ -1,8 +1,6 @@
 name: Sumerian
 # Generated Language File
 
-hundred: NotUsedInBase60
-
 1: 𒁹
 2: 𒁹𒁹
 3: 𒁹𒁹𒁹
@@ -13,6 +11,15 @@ hundred: NotUsedInBase60
 8: 𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹
 9: 𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹
 10: 𒌋
+11: 𒌋 𒁹 # Auto-Generated Generic Patch
+12: 𒌋 𒁹𒁹 # Auto-Generated Generic Patch
+13: 𒌋 𒁹𒁹𒁹 # Auto-Generated Generic Patch
+14: 𒌋 𒁹𒁹𒁹𒁹 # Auto-Generated Generic Patch
+15: 𒌋 𒁹𒁹𒁹𒁹𒁹 # Auto-Generated Generic Patch
+16: 𒌋 𒁹𒁹𒁹𒁹𒁹𒁹 # Auto-Generated Generic Patch
+17: 𒌋 𒁹𒁹𒁹𒁹𒁹𒁹𒁹 # Auto-Generated Generic Patch
+18: 𒌋 𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹 # Auto-Generated Generic Patch
+19: 𒌋 𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹𒁹 # Auto-Generated Generic Patch
 20: 𒌋𒌋
 30: 𒌋𒌋𒌋
 40: 𒌋𒌋𒌋𒌋

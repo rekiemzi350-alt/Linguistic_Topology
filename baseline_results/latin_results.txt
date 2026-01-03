@@ -1,0 +1,8 @@
+
+--- Analysis for: Latin ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 84% of numbers converge here.
+     -> Ends in pattern: ...(723, 748, 777)
+  River #2: 17% of numbers converge here.
+     -> Ends in pattern: ...(724, 753, 783)

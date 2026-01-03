@@ -1,0 +1,20 @@
+name: Old Aramaic
+# Generated Language File
+
+
+1: 𐡇𐡃
+2: 𐡕𐡒𐡊𐡎
+3: 𐡕𐡌𐡕𐡀
+4: 𐡀𐡒𐡁𐡏
+5: 𐡇𐡍𐡖
+10: 𐡏𐡓𐡒𐡊𐡎
+11: 𐡏𐡓𐡒𐡊𐡎 𐡇𐡃 # Auto-Generated Generic Patch
+12: 𐡏𐡓𐡒𐡊𐡎 𐡕𐡒𐡊𐡎 # Auto-Generated Generic Patch
+13: 𐡏𐡓𐡒𐡊𐡎 𐡕𐡌𐡕𐡀 # Auto-Generated Generic Patch
+14: 𐡏𐡓𐡒𐡊𐡎 𐡀𐡒𐡁𐡏 # Auto-Generated Generic Patch
+15: 𐡏𐡓𐡒𐡊𐡎 𐡇𐡍𐡖 # Auto-Generated Generic Patch
+20: 𐡏𐡓𐡒𐡊𐡎
+100: 𐡍𐡀𐡀
+11: חד עשר # Accurate Fix
+12: תרי עשר # Accurate Fix
+100: מאה # Accurate Fix

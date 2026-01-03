@@ -1,0 +1,16 @@
+
+--- Analysis for: Georgian ---
+Structure: 6 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 34% of numbers converge here.
+     -> Ends in pattern: ...(775, 786, 798)
+  River #2: 11% of numbers converge here.
+     -> Ends in pattern: ...(77, 84, 90)
+  River #3: 5% of numbers converge here.
+     -> Ends in pattern: ...(57, 64, 70)
+  River #4: 2% of numbers converge here.
+     -> Ends in pattern: ...(67, 74, 80)
+  River #5: 1% of numbers converge here.
+     -> Ends in pattern: ...(57, 64, 70)
+  River #6: 1% of numbers converge here.
+     -> Ends in pattern: ...(67, 74, 80)

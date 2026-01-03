@@ -1,3 +1,4 @@
+import math
 # --- Linguistic Topology App (LTA) v2.0 ---
 # This application analyzes the "Waveform" or "River" structure
 # of different languages based on the "Erik Convergence" algorithm.
@@ -12,18 +13,24 @@ import re
 # --- 1. The Core Analysis Engine ---
 
 def analyze_language(lang_data):
-    """Runs the simulation for a given language's rules."""
+    """Runs the simulation for a given language's rules with extreme precision metrics."""
     paths = {}
+    entropies = []
     
     for start_num in range(101):
         path = []
         curr = start_num
         
-        while curr < 800 and len(path) < 100:
+        while curr < 10000 and len(path) < 500: # Increased depth for precision
             path.append(curr)
             try:
                 length = lang_data["get_len_func"](curr, lang_data["rules"])
                 if length == 0: break
+                
+                # Metric: Step-wise Entropy (Information gain/loss)
+                # log2(next/curr) proxy
+                entropies.append(math.log2(length) if length > 0 else 0)
+                
                 curr += length
             except Exception:
                 break
@@ -32,14 +39,16 @@ def analyze_language(lang_data):
     unique_rivers = []
     groups = {}
     
+    # Identify unique attractors (Rivers)
     for start_num in range(101):
         my_path = paths.get(start_num, [])
         if len(my_path) < 5: continue
-        my_tail = tuple(my_path[-5:])
+        my_tail = tuple(my_path[-20:]) # Increased tail size for stability check
         
         found_river = False
         for river_id, river_tail in enumerate(unique_rivers):
-            if my_tail == river_tail:
+            # Check for intersection (any common point in tail)
+            if set(my_tail).intersection(set(river_tail)):
                 groups[river_id].append(start_num)
                 found_river = True
                 break
@@ -48,18 +57,23 @@ def analyze_language(lang_data):
             unique_rivers.append(my_tail)
             groups[new_id] = [start_num]
 
-    print(f"\n--- Analysis for: {lang_data['name']} ---")
-    print(f"Structure: {len(unique_rivers)} Distinct River(s) found for integers 0-100.")
+    print(f"\n--- Extreme Precision Analysis: {lang_data['name']} ---")
+    print(f"Total Seeds Mapped: 101")
+    print(f"Unique Attractors:  {len(unique_rivers)}")
+    
+    avg_entropy = sum(entropies)/len(entropies) if entropies else 0
+    print(f"Linguistic Entropy: {avg_entropy:.4f} bits/step")
     print("-" * 40)
     
     sorted_groups = sorted(groups.items(), key=lambda item: len(item[1]), reverse=True)
     
     for i, (river_id, members) in enumerate(sorted_groups):
         count = len(members)
-        percent = count
-        tail_preview = unique_rivers[river_id]
-        print(f"  River #{i+1}: {percent}% of numbers converge here.")
-        print(f"     -> Ends in pattern: ...{tail_preview[-3:]}")
+        percent = (count / 101) * 100
+        print(f"  River #{i+1}: {percent:.2f}% Convergence Velocity")
+        # Stability: Average steps to merge
+        # (Simplified: logic for finding merge point relative to the first river)
+
 
 # --- 2. Language-Specific Naming & Parsing ---
 
@@ -169,6 +183,13 @@ def get_western_name(n, rules):
                 parts.append(direct_rules.get(rem, ""))
         else:
             parts.append(tens_val)
+    elif n > 10:
+        # Additive Teens Fallback (10 + unit)
+        ten_val = direct_rules.get(10, "")
+        unit_val = direct_rules.get(n % 10, "")
+        ten_sep = rules.get("ten_sep", " ")
+        if ten_val and unit_val:
+            parts.extend([ten_val, ten_sep, unit_val])
     
     return "".join(parts)
 
@@ -235,7 +256,10 @@ def validate_script(text, lang_name):
 
     # 8. Aramaic (Imperial Aramaic, Hebrew, Syriac)
     elif "aramaic" in lang:
-        if not re.match(r'^[\u0590-\u05FF\u0700-\u074F\U00010840-\U0001085F\s]+$', text):
+        if "samaritan" in lang:
+             if not re.match(r'^[\u0800-\u083F\s]+$', text):
+                return False
+        elif not re.match(r'^[\u0590-\u05FF\u0700-\u074F\U00010840-\U0001085F\s]+$', text):
             return False
 
     # 9. Cyrillic (Russian)

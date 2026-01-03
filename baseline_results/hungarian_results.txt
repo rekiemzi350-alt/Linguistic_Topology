@@ -1,0 +1,32 @@
+
+--- Analysis for: Hungarian ---
+Structure: 14 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 27% of numbers converge here.
+     -> Ends in pattern: ...(781, 787, 793)
+  River #2: 3% of numbers converge here.
+     -> Ends in pattern: ...(748, 756, 762)
+  River #3: 3% of numbers converge here.
+     -> Ends in pattern: ...(756, 762, 770)
+  River #4: 3% of numbers converge here.
+     -> Ends in pattern: ...(762, 770, 773)
+  River #5: 2% of numbers converge here.
+     -> Ends in pattern: ...(55, 57, 60)
+  River #6: 2% of numbers converge here.
+     -> Ends in pattern: ...(770, 773, 781)
+  River #7: 2% of numbers converge here.
+     -> Ends in pattern: ...(773, 781, 787)
+  River #8: 1% of numbers converge here.
+     -> Ends in pattern: ...(37, 47, 50)
+  River #9: 1% of numbers converge here.
+     -> Ends in pattern: ...(45, 47, 50)
+  River #10: 1% of numbers converge here.
+     -> Ends in pattern: ...(45, 47, 50)
+  River #11: 1% of numbers converge here.
+     -> Ends in pattern: ...(52, 57, 60)
+  River #12: 1% of numbers converge here.
+     -> Ends in pattern: ...(65, 67, 70)
+  River #13: 1% of numbers converge here.
+     -> Ends in pattern: ...(75, 77, 80)
+  River #14: 1% of numbers converge here.
+     -> Ends in pattern: ...(85, 87, 90)

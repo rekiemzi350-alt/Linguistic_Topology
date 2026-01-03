@@ -1,0 +1,8 @@
+
+--- Analysis for: Wakka Wakka ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 8% of numbers converge here.
+     -> Ends in pattern: ...(383, 403, 413)
+  River #2: 1% of numbers converge here.
+     -> Ends in pattern: ...(380, 390, 400)

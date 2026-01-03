@@ -1,0 +1,12 @@
+
+--- Analysis for: Danish ---
+Structure: 4 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 79% of numbers converge here.
+     -> Ends in pattern: ...(745, 766, 787)
+  River #2: 2% of numbers converge here.
+     -> Ends in pattern: ...(740, 756, 782)
+  River #3: 1% of numbers converge here.
+     -> Ends in pattern: ...(6, 10, 12)
+  River #4: 1% of numbers converge here.
+     -> Ends in pattern: ...(6, 10, 12)

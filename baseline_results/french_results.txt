@@ -1,0 +1,8 @@
+
+--- Analysis for: French ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 51% of numbers converge here.
+     -> Ends in pattern: ...(753, 775, 798)
+  River #2: 50% of numbers converge here.
+     -> Ends in pattern: ...(739, 757, 778)

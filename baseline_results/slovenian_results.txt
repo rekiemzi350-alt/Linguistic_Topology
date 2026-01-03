@@ -1,0 +1,10 @@
+
+--- Analysis for: Slovenian ---
+Structure: 3 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 56% of numbers converge here.
+     -> Ends in pattern: ...(745, 766, 787)
+  River #2: 25% of numbers converge here.
+     -> Ends in pattern: ...(739, 760, 777)
+  River #3: 1% of numbers converge here.
+     -> Ends in pattern: ...(6, 10, 15)

@@ -1,0 +1,8 @@
+
+--- Analysis for: Italian ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 62% of numbers converge here.
+     -> Ends in pattern: ...(740, 758, 781)
+  River #2: 39% of numbers converge here.
+     -> Ends in pattern: ...(751, 773, 794)

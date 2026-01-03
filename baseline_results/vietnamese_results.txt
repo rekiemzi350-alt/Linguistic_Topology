@@ -1,0 +1,36 @@
+
+--- Analysis for: Vietnamese ---
+Structure: 16 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 8% of numbers converge here.
+     -> Ends in pattern: ...(44, 47, 50)
+  River #2: 7% of numbers converge here.
+     -> Ends in pattern: ...(54, 57, 60)
+  River #3: 6% of numbers converge here.
+     -> Ends in pattern: ...(64, 67, 70)
+  River #4: 6% of numbers converge here.
+     -> Ends in pattern: ...(74, 77, 80)
+  River #5: 6% of numbers converge here.
+     -> Ends in pattern: ...(84, 87, 90)
+  River #6: 4% of numbers converge here.
+     -> Ends in pattern: ...(590, 593, 598)
+  River #7: 3% of numbers converge here.
+     -> Ends in pattern: ...(593, 598, 604)
+  River #8: 2% of numbers converge here.
+     -> Ends in pattern: ...(573, 578, 584)
+  River #9: 2% of numbers converge here.
+     -> Ends in pattern: ...(578, 584, 590)
+  River #10: 2% of numbers converge here.
+     -> Ends in pattern: ...(584, 590, 593)
+  River #11: 2% of numbers converge here.
+     -> Ends in pattern: ...(598, 604, 610)
+  River #12: 1% of numbers converge here.
+     -> Ends in pattern: ...(7, 10, 14)
+  River #13: 1% of numbers converge here.
+     -> Ends in pattern: ...(34, 37, 40)
+  River #14: 1% of numbers converge here.
+     -> Ends in pattern: ...(564, 570, 573)
+  River #15: 1% of numbers converge here.
+     -> Ends in pattern: ...(570, 573, 578)
+  River #16: 1% of numbers converge here.
+     -> Ends in pattern: ...(604, 610, 617)

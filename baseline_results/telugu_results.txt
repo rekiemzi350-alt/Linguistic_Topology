@@ -1,0 +1,36 @@
+
+--- Analysis for: Telugu ---
+Structure: 16 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 4% of numbers converge here.
+     -> Ends in pattern: ...(770, 773, 780)
+  River #2: 4% of numbers converge here.
+     -> Ends in pattern: ...(773, 780, 783)
+  River #3: 3% of numbers converge here.
+     -> Ends in pattern: ...(763, 770, 773)
+  River #4: 3% of numbers converge here.
+     -> Ends in pattern: ...(780, 783, 790)
+  River #5: 2% of numbers converge here.
+     -> Ends in pattern: ...(703, 710, 716)
+  River #6: 2% of numbers converge here.
+     -> Ends in pattern: ...(700, 703, 710)
+  River #7: 2% of numbers converge here.
+     -> Ends in pattern: ...(710, 716, 719)
+  River #8: 2% of numbers converge here.
+     -> Ends in pattern: ...(716, 719, 722)
+  River #9: 2% of numbers converge here.
+     -> Ends in pattern: ...(722, 734, 743)
+  River #10: 2% of numbers converge here.
+     -> Ends in pattern: ...(743, 750, 753)
+  River #11: 2% of numbers converge here.
+     -> Ends in pattern: ...(753, 760, 763)
+  River #12: 2% of numbers converge here.
+     -> Ends in pattern: ...(783, 790, 793)
+  River #13: 1% of numbers converge here.
+     -> Ends in pattern: ...(719, 722, 734)
+  River #14: 1% of numbers converge here.
+     -> Ends in pattern: ...(734, 743, 750)
+  River #15: 1% of numbers converge here.
+     -> Ends in pattern: ...(750, 753, 760)
+  River #16: 1% of numbers converge here.
+     -> Ends in pattern: ...(760, 763, 770)

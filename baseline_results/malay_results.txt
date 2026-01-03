@@ -1,0 +1,6 @@
+
+--- Analysis for: Malay ---
+Structure: 1 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 67% of numbers converge here.
+     -> Ends in pattern: ...(774, 784, 794)

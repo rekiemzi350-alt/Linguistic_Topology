@@ -1,0 +1,6 @@
+
+--- Analysis for: Waikuri ---
+Structure: 1 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 2% of numbers converge here.
+     -> Ends in pattern: ...(181, 199, 208)

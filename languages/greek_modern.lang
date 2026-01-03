@@ -1,0 +1,24 @@
+name: Greek
+# Generated Language File
+
+ten_sep:  
+
+1: ένα
+2: δύο
+3: τρία
+4: τέσσερα
+5: πέντε
+6: έξι
+7: επτά
+8: οκτώ
+9: εννέα
+10: δέκα
+11: έντεκα
+20: είκοσι
+100: εκατό
+11: έντεκα # Accurate Fix
+12: δώδεκα # Accurate Fix
+13: δεκατρία # Accurate Fix
+14: δεκατέσσερα # Accurate Fix
+15: δεκαπέντε # Accurate Fix
+100: εκατό # Accurate Fix

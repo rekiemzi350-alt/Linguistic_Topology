@@ -1,0 +1,30 @@
+
+--- Analysis for: Kurdish (Kurmanji) ---
+Structure: 13 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 4% of numbers converge here.
+     -> Ends in pattern: ...(666, 673, 679)
+  River #2: 3% of numbers converge here.
+     -> Ends in pattern: ...(42, 45, 50)
+  River #3: 3% of numbers converge here.
+     -> Ends in pattern: ...(43, 46, 50)
+  River #4: 3% of numbers converge here.
+     -> Ends in pattern: ...(646, 653, 659)
+  River #5: 3% of numbers converge here.
+     -> Ends in pattern: ...(653, 659, 666)
+  River #6: 3% of numbers converge here.
+     -> Ends in pattern: ...(659, 666, 673)
+  River #7: 1% of numbers converge here.
+     -> Ends in pattern: ...(32, 35, 40)
+  River #8: 1% of numbers converge here.
+     -> Ends in pattern: ...(42, 45, 50)
+  River #9: 1% of numbers converge here.
+     -> Ends in pattern: ...(53, 56, 60)
+  River #10: 1% of numbers converge here.
+     -> Ends in pattern: ...(63, 66, 70)
+  River #11: 1% of numbers converge here.
+     -> Ends in pattern: ...(73, 76, 80)
+  River #12: 1% of numbers converge here.
+     -> Ends in pattern: ...(83, 86, 90)
+  River #13: 1% of numbers converge here.
+     -> Ends in pattern: ...(639, 646, 653)

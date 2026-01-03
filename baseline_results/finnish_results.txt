@@ -1,0 +1,16 @@
+
+--- Analysis for: Finnish ---
+Structure: 6 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 17% of numbers converge here.
+     -> Ends in pattern: ...(766, 780, 789)
+  River #2: 11% of numbers converge here.
+     -> Ends in pattern: ...(61, 65, 70)
+  River #3: 10% of numbers converge here.
+     -> Ends in pattern: ...(770, 779, 796)
+  River #4: 9% of numbers converge here.
+     -> Ends in pattern: ...(71, 75, 80)
+  River #5: 6% of numbers converge here.
+     -> Ends in pattern: ...(81, 85, 90)
+  River #6: 2% of numbers converge here.
+     -> Ends in pattern: ...(51, 55, 60)

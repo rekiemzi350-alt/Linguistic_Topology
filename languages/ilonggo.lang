@@ -1,0 +1,26 @@
+name: Ilonggo
+# Generated Language File
+
+ten_sep:  kag 
+
+1: isa
+2: duha
+3: tatlo
+4: apat
+5: lima
+6: anum
+7: pito
+8: walo
+9: siyam
+10: napulo
+11: napulokagisa # Auto-Generated Generic Patch
+12: napulokagduha # Auto-Generated Generic Patch
+13: napulokagtatlo # Auto-Generated Generic Patch
+14: napulokagapat # Auto-Generated Generic Patch
+15: napulokaglima # Auto-Generated Generic Patch
+16: napulokaganum # Auto-Generated Generic Patch
+17: napulokagpito # Auto-Generated Generic Patch
+18: napulokagwalo # Auto-Generated Generic Patch
+19: napulokagsiyam # Auto-Generated Generic Patch
+20: duha ka pulo
+100: isa ka gatos

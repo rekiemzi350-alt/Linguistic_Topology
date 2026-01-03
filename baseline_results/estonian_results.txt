@@ -1,0 +1,10 @@
+
+--- Analysis for: Estonian ---
+Structure: 3 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 56% of numbers converge here.
+     -> Ends in pattern: ...(775, 785, 795)
+  River #2: 2% of numbers converge here.
+     -> Ends in pattern: ...(765, 775, 785)
+  River #3: 1% of numbers converge here.
+     -> Ends in pattern: ...(755, 765, 775)

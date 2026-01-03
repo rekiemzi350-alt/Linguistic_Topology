@@ -1,0 +1,6 @@
+
+--- Analysis for: Samaritan Aramaic ---
+Structure: 1 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 1% of numbers converge here.
+     -> Ends in pattern: ...(592, 599, 602)

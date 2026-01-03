@@ -1,0 +1,31 @@
+name: Pashto
+# Generated Language File
+
+ten_sep:  
+
+1: يو
+2: دوه
+3: درې
+4: څلور
+5: پنځه
+6: شپږ
+7: اووه
+8: اته
+9: نهه
+10: لس
+11: لسيو # Auto-Generated Generic Patch
+12: لسدوه # Auto-Generated Generic Patch
+13: لسدرې # Auto-Generated Generic Patch
+14: لسڅلور # Auto-Generated Generic Patch
+15: لسپنځه # Auto-Generated Generic Patch
+16: لسشپږ # Auto-Generated Generic Patch
+17: لساووه # Auto-Generated Generic Patch
+18: لساته # Auto-Generated Generic Patch
+19: لسنهه # Auto-Generated Generic Patch
+20: شل
+30: دیرش
+100: سل
+11: يولس # Accurate Fix
+12: دولس # Accurate Fix
+13: ديارلس # Accurate Fix
+100: سل # Accurate Fix

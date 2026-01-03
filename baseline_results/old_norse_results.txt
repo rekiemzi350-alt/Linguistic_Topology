@@ -1,0 +1,8 @@
+
+--- Analysis for: Old Norse ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 74% of numbers converge here.
+     -> Ends in pattern: ...(753, 780, 792)
+  River #2: 1% of numbers converge here.
+     -> Ends in pattern: ...(9, 12, 16)

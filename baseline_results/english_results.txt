@@ -1,0 +1,8 @@
+
+--- Analysis for: English ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 85% of numbers converge here.
+     -> Ends in pattern: ...(723, 749, 773)
+  River #2: 16% of numbers converge here.
+     -> Ends in pattern: ...(746, 769, 793)

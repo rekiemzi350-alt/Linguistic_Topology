@@ -1,0 +1,16 @@
+
+--- Analysis for: Fulani ---
+Structure: 6 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 28% of numbers converge here.
+     -> Ends in pattern: ...(774, 785, 797)
+  River #2: 10% of numbers converge here.
+     -> Ends in pattern: ...(57, 65, 70)
+  River #3: 6% of numbers converge here.
+     -> Ends in pattern: ...(67, 75, 80)
+  River #4: 6% of numbers converge here.
+     -> Ends in pattern: ...(77, 85, 90)
+  River #5: 3% of numbers converge here.
+     -> Ends in pattern: ...(47, 55, 60)
+  River #6: 1% of numbers converge here.
+     -> Ends in pattern: ...(37, 45, 50)

@@ -33,3 +33,11 @@ hundred_sep:
 70: yetmis
 80: seksen
 90: doksan
+20: yirmi # Stall Fix
+30: otuz # Stall Fix
+40: kırk # Stall Fix
+50: elli # Stall Fix
+60: altmış # Stall Fix
+70: yetmiş # Stall Fix
+80: seksen # Stall Fix
+90: doksan # Stall Fix

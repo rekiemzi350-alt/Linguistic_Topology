@@ -1,0 +1,8 @@
+
+--- Analysis for: Spanish ---
+Structure: 2 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 76% of numbers converge here.
+     -> Ends in pattern: ...(741, 764, 789)
+  River #2: 25% of numbers converge here.
+     -> Ends in pattern: ...(751, 775, 799)

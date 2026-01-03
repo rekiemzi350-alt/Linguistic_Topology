@@ -1,0 +1,26 @@
+name: Ilocano
+# Generated Language File
+
+ten_sep:  ket 
+
+1: maysa
+2: dua
+3: tallo
+4: uppat
+5: lima
+6: innem
+7: pito
+8: walo
+9: siam
+10: sangapulo
+11: sangapuloketmaysa # Auto-Generated Generic Patch
+12: sangapuloketdua # Auto-Generated Generic Patch
+13: sangapulokettallo # Auto-Generated Generic Patch
+14: sangapuloketuppat # Auto-Generated Generic Patch
+15: sangapuloketlima # Auto-Generated Generic Patch
+16: sangapuloketinnem # Auto-Generated Generic Patch
+17: sangapuloketpito # Auto-Generated Generic Patch
+18: sangapuloketwalo # Auto-Generated Generic Patch
+19: sangapuloketsiam # Auto-Generated Generic Patch
+20: duapulo
+100: sangagasut

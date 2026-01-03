@@ -1,0 +1,12 @@
+
+--- Analysis for: Sanskrit ---
+Structure: 4 Distinct River(s) found for integers 0-100.
+----------------------------------------
+  River #1: 84% of numbers converge here.
+     -> Ends in pattern: ...(755, 773, 789)
+  River #2: 1% of numbers converge here.
+     -> Ends in pattern: ...(9, 11, 16)
+  River #3: 1% of numbers converge here.
+     -> Ends in pattern: ...(7, 11, 16)
+  River #4: 1% of numbers converge here.
+     -> Ends in pattern: ...(9, 11, 16)
