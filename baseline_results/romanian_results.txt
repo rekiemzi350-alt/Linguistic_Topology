@@ -1,6 +1,1 @@
-
---- Analysis for: Romanian ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 81% of numbers converge here.
-     -> Ends in pattern: ...(743, 767, 790)
+--- Analysis for: Romanian --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 81% of numbers converge here. -> Ends in pattern: ...(743, 767, 790)

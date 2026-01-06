@@ -1,6 +1,1 @@
-
---- Analysis for: Kinyarwanda ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 60% of numbers converge here.
-     -> Ends in pattern: ...(749, 766, 785)
+--- Analysis for: Kinyarwanda --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 60% of numbers converge here. -> Ends in pattern: ...(749, 766, 785)

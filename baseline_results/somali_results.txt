@@ -1,6 +1,1 @@
-
---- Analysis for: Somali ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 71% of numbers converge here.
-     -> Ends in pattern: ...(764, 778, 794)
+--- Analysis for: Somali --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 71% of numbers converge here. -> Ends in pattern: ...(764, 778, 794)

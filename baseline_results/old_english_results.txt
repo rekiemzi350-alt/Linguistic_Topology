@@ -1,10 +1,1 @@
-
---- Analysis for: Old English ---
-Structure: 3 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 49% of numbers converge here.
-     -> Ends in pattern: ...(750, 769, 797)
-  River #2: 26% of numbers converge here.
-     -> Ends in pattern: ...(735, 760, 780)
-  River #3: 25% of numbers converge here.
-     -> Ends in pattern: ...(727, 756, 782)
+--- Analysis for: Old English --- Structure: 3 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 49% of numbers converge here. -> Ends in pattern: ...(750, 769, 797) River #2: 26% of numbers converge here. -> Ends in pattern: ...(735, 760, 780) River #3: 25% of numbers converge here. -> Ends in pattern: ...(727, 756, 782)

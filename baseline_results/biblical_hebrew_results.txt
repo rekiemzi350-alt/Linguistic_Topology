@@ -1,8 +1,1 @@
-
---- Analysis for: Biblical Hebrew (Aramaic Script) ---
-Structure: 2 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 72% of numbers converge here.
-     -> Ends in pattern: ...(762, 780, 793)
-  River #2: 16% of numbers converge here.
-     -> Ends in pattern: ...(755, 774, 792)
+--- Analysis for: Biblical Hebrew (Aramaic Script) --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 72% of numbers converge here. -> Ends in pattern: ...(762, 780, 793) River #2: 16% of numbers converge here. -> Ends in pattern: ...(755, 774, 792)

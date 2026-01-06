@@ -1,12 +1,1 @@
-
---- Analysis for: Polish ---
-Structure: 4 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 53% of numbers converge here.
-     -> Ends in pattern: ...(750, 771, 799)
-  River #2: 25% of numbers converge here.
-     -> Ends in pattern: ...(727, 753, 778)
-  River #3: 2% of numbers converge here.
-     -> Ends in pattern: ...(728, 753, 778)
-  River #4: 1% of numbers converge here.
-     -> Ends in pattern: ...(727, 753, 778)
+--- Analysis for: Polish --- Structure: 4 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 53% of numbers converge here. -> Ends in pattern: ...(750, 771, 799) River #2: 25% of numbers converge here. -> Ends in pattern: ...(727, 753, 778) River #3: 2% of numbers converge here. -> Ends in pattern: ...(728, 753, 778) River #4: 1% of numbers converge here. -> Ends in pattern: ...(727, 753, 778)

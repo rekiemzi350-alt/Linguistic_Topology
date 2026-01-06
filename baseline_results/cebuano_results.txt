@@ -1,14 +1,1 @@
-
---- Analysis for: Cebuano ---
-Structure: 5 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 29% of numbers converge here.
-     -> Ends in pattern: ...(774, 784, 794)
-  River #2: 9% of numbers converge here.
-     -> Ends in pattern: ...(58, 64, 70)
-  River #3: 8% of numbers converge here.
-     -> Ends in pattern: ...(68, 74, 80)
-  River #4: 6% of numbers converge here.
-     -> Ends in pattern: ...(78, 84, 90)
-  River #5: 3% of numbers converge here.
-     -> Ends in pattern: ...(48, 54, 60)
+--- Analysis for: Cebuano --- Structure: 5 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 29% of numbers converge here. -> Ends in pattern: ...(774, 784, 794) River #2: 9% of numbers converge here. -> Ends in pattern: ...(58, 64, 70) River #3: 8% of numbers converge here. -> Ends in pattern: ...(68, 74, 80) River #4: 6% of numbers converge here. -> Ends in pattern: ...(78, 84, 90) River #5: 3% of numbers converge here. -> Ends in pattern: ...(48, 54, 60)

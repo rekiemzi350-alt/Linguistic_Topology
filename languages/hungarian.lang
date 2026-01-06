@@ -1,21 +1,30 @@
 name: Hungarian
-# Generated Language File
-
-ten_sep: 
-
+0: nulla
 1: egy
-2: kettő
-3: három
-4: négy
-5: öt
+2: ketto
+3: harom
+4: negy
+5: ot
 6: hat
-7: hét
+7: het
 8: nyolc
 9: kilenc
-10: tíz
+10: tiz
 11: tizenegy
-20: húsz
-21: huszonegy
+12: tizenketto
+20: husz
 30: harminc
-100: száz
+40: negyven
+50: otven
+60: hatvan
+70: hetven
+80: nyolcvan
+90: kilencven
+100: szaz
 1000: ezer
+1000000: millio
+hundred: szaz
+thousand: ezer
+million: millio
+ten_sep: 
+hundred_sep: 

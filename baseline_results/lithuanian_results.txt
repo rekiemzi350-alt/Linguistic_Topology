@@ -1,8 +1,1 @@
-
---- Analysis for: Lithuanian ---
-Structure: 2 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 45% of numbers converge here.
-     -> Ends in pattern: ...(731, 760, 785)
-  River #2: 36% of numbers converge here.
-     -> Ends in pattern: ...(729, 757, 790)
+--- Analysis for: Lithuanian --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 45% of numbers converge here. -> Ends in pattern: ...(731, 760, 785) River #2: 36% of numbers converge here. -> Ends in pattern: ...(729, 757, 790)

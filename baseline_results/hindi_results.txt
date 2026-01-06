@@ -1,6 +1,1 @@
-
---- Analysis for: Hindi ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 101% of numbers converge here.
-     -> Ends in pattern: ...(770, 780, 790)
+--- Analysis for: Hindi --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 101% of numbers converge here. -> Ends in pattern: ...(770, 780, 790)

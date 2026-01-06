@@ -1,6 +1,1 @@
-
---- Analysis for: Tibetan ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 63% of numbers converge here.
-     -> Ends in pattern: ...(766, 779, 791)
+--- Analysis for: Tibetan --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 63% of numbers converge here. -> Ends in pattern: ...(766, 779, 791)

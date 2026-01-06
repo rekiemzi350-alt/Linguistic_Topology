@@ -1,6 +1,1 @@
-
---- Analysis for: Gaelic (Scottish) ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 81% of numbers converge here.
-     -> Ends in pattern: ...(746, 770, 787)
+--- Analysis for: Gaelic (Scottish) --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 81% of numbers converge here. -> Ends in pattern: ...(746, 770, 787)

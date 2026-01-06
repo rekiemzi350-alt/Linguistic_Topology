@@ -1,10 +1,1 @@
-
---- Analysis for: Yiddish ---
-Structure: 3 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 41% of numbers converge here.
-     -> Ends in pattern: ...(727, 754, 778)
-  River #2: 40% of numbers converge here.
-     -> Ends in pattern: ...(748, 771, 796)
-  River #3: 1% of numbers converge here.
-     -> Ends in pattern: ...(7, 11, 14)
+--- Analysis for: Yiddish --- Structure: 3 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 41% of numbers converge here. -> Ends in pattern: ...(727, 754, 778) River #2: 40% of numbers converge here. -> Ends in pattern: ...(748, 771, 796) River #3: 1% of numbers converge here. -> Ends in pattern: ...(7, 11, 14)

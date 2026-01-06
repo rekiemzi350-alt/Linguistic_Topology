@@ -1,8 +1,1 @@
-
---- Analysis for: Sumerian ---
-Structure: 2 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 52% of numbers converge here.
-     -> Ends in pattern: ...(774, 786, 796)
-  River #2: 48% of numbers converge here.
-     -> Ends in pattern: ...(770, 778, 794)
+--- Analysis for: Sumerian --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 52% of numbers converge here. -> Ends in pattern: ...(774, 786, 796) River #2: 48% of numbers converge here. -> Ends in pattern: ...(770, 778, 794)

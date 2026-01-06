@@ -1,6 +1,1 @@
-
---- Analysis for: Portuguese ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 101% of numbers converge here.
-     -> Ends in pattern: ...(752, 774, 796)
+--- Analysis for: Portuguese --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 101% of numbers converge here. -> Ends in pattern: ...(752, 774, 796)

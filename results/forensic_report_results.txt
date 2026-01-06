@@ -1,0 +1,11 @@
+=== THE SECRET DOCTRINE: PLAGIARISM & HOAX DETECTOR === Methodology: Comparing 'Track 2' (Weighted Atomic/Molecular Signature) of Narrative vs. Quotes.
+
+--- VOLUME 1 FORENSIC ANALYSIS --- Narrative Sentences: 8714 Quote/Citation Sentences: 2596 Structural Complexity (HPB): 49.94% Structural Complexity (Quotes): 76.16% Vocabulary Volatility (HPB): 2250.65 Vocabulary Volatility (Quotes): 3432.50 Forensic Distance (Z-Score): 0.8391 >> RESULT: DISTINCT VOICES. (Quotes show statistically significant difference from HPB)
+
+--- VOLUME 2 FORENSIC ANALYSIS --- Narrative Sentences: 11022 Quote/Citation Sentences: 3353 Structural Complexity (HPB): 45.78% Structural Complexity (Quotes): 72.71% Vocabulary Volatility (HPB): 2192.15 Vocabulary Volatility (Quotes): 3009.79 Forensic Distance (Z-Score): 0.8855 >> RESULT: DISTINCT VOICES. (Quotes show statistically significant difference from HPB)
+
+--- VOLUME 3 FORENSIC ANALYSIS --- Narrative Sentences: 7528 Quote/Citation Sentences: 1870 Structural Complexity (HPB): 48.34% Structural Complexity (Quotes): 75.51% Vocabulary Volatility (HPB): 2212.75 Vocabulary Volatility (Quotes): 2981.95 Forensic Distance (Z-Score): 0.8950 >> RESULT: DISTINCT VOICES. (Quotes show statistically significant difference from HPB)
+
+--- VOLUME 4 FORENSIC ANALYSIS --- Narrative Sentences: 11975 Quote/Citation Sentences: 11 Structural Complexity (HPB): 8.98% Structural Complexity (Quotes): 27.27% Vocabulary Volatility (HPB): 6669.77 Vocabulary Volatility (Quotes): 13964.98 Forensic Distance (Z-Score): 0.6992 >> RESULT: DISTINCT VOICES. (Quotes show statistically significant difference from HPB)
+
+=== FINAL VERDICT === Average Forensic Distance across all volumes: 0.8297 CONCLUSION: The 'Quotes' in The Secret Doctrine possess a distinctly different topological fingerprint than H.P. Blavatsky's narrative voice. This SUPPORTS the claim that she was citing external sources (or distinct entities) rather than fabricating them herself.

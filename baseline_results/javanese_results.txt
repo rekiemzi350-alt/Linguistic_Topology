@@ -1,14 +1,1 @@
-
---- Analysis for: Javanese ---
-Structure: 5 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 31% of numbers converge here.
-     -> Ends in pattern: ...(769, 785, 793)
-  River #2: 15% of numbers converge here.
-     -> Ends in pattern: ...(64, 76, 80)
-  River #3: 8% of numbers converge here.
-     -> Ends in pattern: ...(82, 86, 90)
-  River #4: 5% of numbers converge here.
-     -> Ends in pattern: ...(64, 76, 80)
-  River #5: 2% of numbers converge here.
-     -> Ends in pattern: ...(72, 76, 80)
+--- Analysis for: Javanese --- Structure: 5 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 31% of numbers converge here. -> Ends in pattern: ...(769, 785, 793) River #2: 15% of numbers converge here. -> Ends in pattern: ...(64, 76, 80) River #3: 8% of numbers converge here. -> Ends in pattern: ...(82, 86, 90) River #4: 5% of numbers converge here. -> Ends in pattern: ...(64, 76, 80) River #5: 2% of numbers converge here. -> Ends in pattern: ...(72, 76, 80)

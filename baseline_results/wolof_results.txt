@@ -1,8 +1,1 @@
-
---- Analysis for: Wolof ---
-Structure: 2 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 45% of numbers converge here.
-     -> Ends in pattern: ...(751, 767, 789)
-  River #2: 4% of numbers converge here.
-     -> Ends in pattern: ...(770, 780, 790)
+--- Analysis for: Wolof --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 45% of numbers converge here. -> Ends in pattern: ...(751, 767, 789) River #2: 4% of numbers converge here. -> Ends in pattern: ...(770, 780, 790)

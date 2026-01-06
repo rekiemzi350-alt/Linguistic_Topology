@@ -1,6 +1,1 @@
-
---- Analysis for: Icelandic ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 75% of numbers converge here.
-     -> Ends in pattern: ...(774, 785, 794)
+--- Analysis for: Icelandic --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 75% of numbers converge here. -> Ends in pattern: ...(774, 785, 794)

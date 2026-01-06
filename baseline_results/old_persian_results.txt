@@ -1,6 +1,1 @@
-
---- Analysis for: Old Persian ---
-Structure: 1 Distinct River(s) found for integers 0-100.
-----------------------------------------
-  River #1: 71% of numbers converge here.
-     -> Ends in pattern: ...(758, 775, 793)
+--- Analysis for: Old Persian --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 71% of numbers converge here. -> Ends in pattern: ...(758, 775, 793)

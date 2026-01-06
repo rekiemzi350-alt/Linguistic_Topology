@@ -1,27 +1,30 @@
 name: Finnish
-# Generated Language File
-
-ten_sep: 
-
+0: nolla
 1: yksi
 2: kaksi
 3: kolme
-4: neljä
+4: nelja
 5: viisi
 6: kuusi
-7: seitsemän
+7: seitseman
 8: kahdeksan
-9: yhdeksän
+9: yhdeksan
 10: kymmenen
 11: yksitoista
-20: kaksikymmentä
+12: kaksitoista
+20: kaksikymmenta
+30: kolmekymmenta
+40: neljakymmenta
+50: viisikymmenta
+60: kuusikymmenta
+70: seitsemankymmenta
+80: kahdeksankymmenta
+90: yhdeksankymmenta
 100: sata
 1000: tuhat
-20: kaksikymmentä # Stall Fix
-30: kolmekymmentä # Stall Fix
-40: neljäkymmentä # Stall Fix
-50: viisikymmentä # Stall Fix
-60: kuusikymmentä # Stall Fix
-70: seitsemänkymmentä # Stall Fix
-80: kahdeksankymmentä # Stall Fix
-90: yhdeksänkymmentä # Stall Fix
+1000000: miljoona
+hundred: sata
+thousand: tuhat
+million: miljoona
+ten_sep: 
+hundred_sep: 
