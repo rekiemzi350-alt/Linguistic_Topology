@@ -1,0 +1,1 @@
+--- Analysis for: Swedish --- Structure: 3 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 45% of numbers converge here. -> Ends in pattern: ...(758, 777, 796) River #2: 36% of numbers converge here. -> Ends in pattern: ...(755, 773, 792) River #3: 1% of numbers converge here. -> Ends in pattern: ...(6, 9, 12)

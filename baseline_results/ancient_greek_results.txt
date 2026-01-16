@@ -1,0 +1,1 @@
+--- Analysis for: Ancient Greek --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 89% of numbers converge here. -> Ends in pattern: ...(724, 751, 777)

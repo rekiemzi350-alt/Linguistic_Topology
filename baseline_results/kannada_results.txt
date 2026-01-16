@@ -1,0 +1,1 @@
+--- Analysis for: Kannada --- Structure: 3 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 43% of numbers converge here. -> Ends in pattern: ...(779, 789, 799) River #2: 5% of numbers converge here. -> Ends in pattern: ...(769, 779, 789) River #3: 2% of numbers converge here. -> Ends in pattern: ...(759, 769, 779)

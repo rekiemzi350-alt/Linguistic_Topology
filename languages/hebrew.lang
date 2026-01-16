@@ -1,6 +1,9 @@
 # Language Definition for Hebrew
 name: Hebrew
+<<<<<<< HEAD
 math_type: hebrew
+=======
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 
 # --- Direct Numbers 0-19 (Feminine Absolute) ---
 0: אפס

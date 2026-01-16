@@ -1,0 +1,1 @@
+--- Analysis for: Cymric (Welsh) --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 81% of numbers converge here. -> Ends in pattern: ...(740, 756, 782)

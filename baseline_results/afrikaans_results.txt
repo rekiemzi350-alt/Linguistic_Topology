@@ -1,0 +1,1 @@
+--- Analysis for: Afrikaans --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 60% of numbers converge here. -> Ends in pattern: ...(748, 771, 795) River #2: 21% of numbers converge here. -> Ends in pattern: ...(746, 769, 792)

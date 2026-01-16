@@ -20,15 +20,24 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
+=======
+share/python-wheels/
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
 # PyInstaller
+<<<<<<< HEAD
 #  Usually these files are written by a parent script to a temporary directory
 #  in the project's root, so, less gracefully, we block based on a name
 #  pattern.
+=======
+#  Usually these files are written by a python script, before or after the setuptools
+#  dist, and can contain SRCDIR or other platform-specific paths
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 *.manifest
 *.spec
 
@@ -46,8 +55,15 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 .hypothesis/
 .pytest_cache/
+=======
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 
 # Translations
 *.mo
@@ -57,6 +73,10 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+<<<<<<< HEAD
+=======
+db.sqlite3-journal
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 
 # Flask stuff:
 instance/
@@ -69,6 +89,10 @@ instance/
 docs/_build/
 
 # PyBuilder
+<<<<<<< HEAD
+=======
+.pybuilder/
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 target/
 
 # Jupyter Notebook
@@ -81,10 +105,36 @@ ipython_config.py
 # pyenv
 .python-version
 
+<<<<<<< HEAD
 # celery beat schedule file
 celerybeat-schedule
 
 # SageMath parsed files
+=======
+# pipenv
+#   According to pypa/pipenv#1255, lock files are sometimes recommended to be committed.
+#   Feel free to uncomment these lines if you want to.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   https://pdm.fming.dev/latest/usage/project/#commit-the-lock-file
+#pdm.lock
+
+# PEP 582; used by e.g. github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath libraries
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 *.sage.py
 
 # Environments
@@ -98,7 +148,11 @@ venv.bak/
 
 # Spyder project settings
 .spyderproject
+<<<<<<< HEAD
 .spyderworkspace
+=======
+.spyproject
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 
 # Rope project settings
 .ropeproject
@@ -112,4 +166,18 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
+<<<<<<< HEAD
 .pyre/
+=======
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# OS files
+.DS_Store
+Thumbs.db
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c

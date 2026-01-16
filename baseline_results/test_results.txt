@@ -1,0 +1,1 @@
+--- Analysis for: Test Language --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 85% of numbers converge here. -> Ends in pattern: ...(761, 775, 795) River #2: 15% of numbers converge here. -> Ends in pattern: ...(762, 777, 792)

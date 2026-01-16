@@ -1,0 +1,1 @@
+--- Analysis for: Belorussian --- Structure: 1 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 81% of numbers converge here. -> Ends in pattern: ...(751, 772, 790)

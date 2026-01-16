@@ -1,0 +1,1 @@
+--- Analysis for: Erse (Irish) --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 79% of numbers converge here. -> Ends in pattern: ...(742, 763, 783) River #2: 2% of numbers converge here. -> Ends in pattern: ...(749, 772, 792)

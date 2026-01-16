@@ -1,5 +1,8 @@
 name: English
+<<<<<<< HEAD
 math_type: western
+=======
+>>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
 # Generated Language File
 
 hundred: hundred

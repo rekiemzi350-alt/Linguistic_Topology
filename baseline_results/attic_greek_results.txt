@@ -1,0 +1,1 @@
+--- Analysis for: Attic Greek --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 38% of numbers converge here. -> Ends in pattern: ...(770, 780, 790) River #2: 33% of numbers converge here. -> Ends in pattern: ...(751, 767, 784)

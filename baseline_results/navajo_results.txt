@@ -1,0 +1,1 @@
+--- Analysis for: Navajo --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 56% of numbers converge here. -> Ends in pattern: ...(727, 761, 787) River #2: 18% of numbers converge here. -> Ends in pattern: ...(723, 752, 775)

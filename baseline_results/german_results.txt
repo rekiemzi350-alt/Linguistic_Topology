@@ -1,0 +1,1 @@
+--- Analysis for: German --- Structure: 2 Distinct River(s) found for integers 0-100. ---------------------------------------- River #1: 93% of numbers converge here. -> Ends in pattern: ...(739, 767, 796) River #2: 8% of numbers converge here. -> Ends in pattern: ...(721, 747, 776)
