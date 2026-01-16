@@ -1,0 +1,27 @@
+name: Old Persian
+# Generated Language File
+
+hundred: thahata
+ten_sep:  
+
+1: aiva
+2: duva
+3: thraya
+4: chathwara
+5: pancha
+6: khshvash
+7: hapta
+8: ashta
+9: nava
+10: datha
+11: dathaaiva # Auto-Generated Generic Patch
+12: dathaduva # Auto-Generated Generic Patch
+13: dathathraya # Auto-Generated Generic Patch
+14: dathachathwara # Auto-Generated Generic Patch
+15: dathapancha # Auto-Generated Generic Patch
+16: dathakhshvash # Auto-Generated Generic Patch
+17: dathahapta # Auto-Generated Generic Patch
+18: dathaashta # Auto-Generated Generic Patch
+19: dathanava # Auto-Generated Generic Patch
+20: vithati
+100: thahata

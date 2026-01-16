@@ -1,0 +1,30 @@
+name: Czech
+0: nula
+1: jeden
+2: dva
+3: tri
+4: ctyri
+5: pet
+6: sest
+7: sedm
+8: osm
+9: devet
+10: deset
+11: jedenact
+12: dvanact
+20: dvacet
+30: tricet
+40: ctyricet
+50: padesat
+60: sedesat
+70: sedmdesat
+80: osmdesat
+90: devadesat
+100: sto
+1000: tisic
+1000000: milion
+hundred: sto
+thousand: tisic
+million: milion
+ten_sep: 
+hundred_sep: 

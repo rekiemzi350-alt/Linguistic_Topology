@@ -1,0 +1,44 @@
+name: Coptic
+# Coptic Numeral System (Alphabetic)
+# Based on the Sahidic/Bohairic script values
+
+hundred: ⲣ
+ten_sep: ⲙⲛ
+hundred_sep: ⲛⲙ
+
+# Units
+1: ⲁ
+2: ⲃ
+3: ⲅ
+4: ⲇ
+5: ⲉ
+6: ⲋ
+7: ⲍ
+8: ⲏ
+9: ⲑ
+
+# Tens
+10: ⲓ
+20: ⲕ
+30: ⲗ
+40: ⲙ
+50: ⲛ
+60: ⲝ
+70: ⲟ
+80: ⲡ
+90: b
+
+# Hundreds
+100: ⲣ
+200: ⲥ
+300: ⲧ
+400: ⲩ
+500: ⲫ
+600: ⲭ
+700: ⲯ
+800: ⲱ
+900: ϥ
+
+# Thousands (often represented by a stroke over the unit, simplified here)
+1000: ϣⲟ
+2000: ⲥⲛⲁⲩ ϣⲟ

@@ -1,0 +1,30 @@
+name: Polish
+0: zero
+1: jeden
+2: dwa
+3: trzy
+4: cztery
+5: piec
+6: szesc
+7: siedem
+8: osiem
+9: dziewiec
+10: dziesiec
+11: jedenascie
+12: dwanascie
+20: dwadziescia
+30: trzydziesci
+40: czterdziesci
+50: piecdziesiat
+60: szescdziesiat
+70: siedemdziesiat
+80: osiemdziesiat
+90: dziewiecdziesiat
+100: sto
+1000: tysiac
+1000000: milion
+hundred: sto
+thousand: tysiac
+million: milion
+ten_sep: 
+hundred_sep: 

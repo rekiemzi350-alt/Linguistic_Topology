@@ -1,0 +1,33 @@
+name: Somali
+# Generated Language File
+
+ten_sep:  iyo 
+
+1: Kow
+2: Labo
+3: Saddex
+4: Afar
+5: Shan
+6: Lix
+7: Toddoba
+8: Sideed
+9: Sagaal
+10: Toban
+11: kow iyo toban
+12: laba iyo toban
+13: saddex iyo toban
+14: afar iyo toban
+15: shan iyo toban
+16: lix iyo toban
+17: toddoba iyo toban
+18: siddeed iyo toban
+19: sagaal iyo toban
+20: Labataan
+100: Boqol
+1000: kun
+40: afartan # Stall Fix
+50: konton # Stall Fix
+60: lixdan # Stall Fix
+70: toddobaatan # Stall Fix
+80: sideettan # Stall Fix
+90: sagaashan # Stall Fix

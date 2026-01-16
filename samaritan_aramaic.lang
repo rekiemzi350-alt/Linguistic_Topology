@@ -1,0 +1,15 @@
+name: Samaritan Aramaic
+# Generated Language File
+
+
+1: ࠇࠃࠄ
+2: ࠕࠓࠉࠌ
+3: ࠕࠋࠕ
+4: ࠀࠓࠁࠏ
+5: ࠇࠌࠔ
+10: ࠎࠒࠓ
+11: ࠎࠒࠓ ࠇࠃࠄ # Auto-Repair Aggregate
+12: ࠎࠒࠓ ࠕࠓࠉࠌ # Auto-Repair Aggregate
+13: ࠎࠒࠓ ࠕࠋࠕ # Auto-Repair Aggregate
+14: ࠎࠒࠓ ࠀࠓࠁࠏ # Auto-Repair Aggregate
+15: ࠎࠒࠓ ࠇࠌࠔ # Auto-Repair Aggregate

@@ -1,0 +1,113 @@
+GEMINI LINGUISTIC TOOLKIT (LTA) - MANUAL & TECHNICAL DOCUMENTATION
+====================================================================
+Version: 4.0 (Go Optimized)
+Date: January 8, 2026
+
+1. SYSTEM OVERVIEW
+------------------
+The Gemini Linguistic Toolkit is a suite of software designed to analyze the "Topological Structure" of languages. 
+It treats language not just as a means of communication but as a mathematical substrate where words have "weight" (length, value) 
+and sequences of numbers generate deterministic "waveforms" or "rivers" when fed recursively into themselves 
+(Algorithm: n -> n + length_of_name(n)).
+
+The system has been upgraded to include high-performance Go binaries for computationally intensive tasks, 
+alongside the original Python prototyping scripts. This "Hybrid Architecture" ensures both ease of use and extreme speed.
+
+2. CORE COMPONENTS (PYTHON)
+---------------------------
+These scripts represent the primary logic for the Topological Theory.
+
+A. lta_wrapper.py (NEW - Recommended Entry Point)
+   - PURPOSE: The smart orchestrator.
+   - FUNCTION: 
+     1. Checks for the existence of the compiled Go Core (`go_core/lta_core`).
+     2. If present, delegates the heavy analysis to Go (Turbo Mode).
+     3. If absent, falls back to the legacy Python engine (`linguistic_topology_app.py`).
+     4. Formats and prints the results uniformly.
+
+B. linguistic_topology_app.py
+   - PURPOSE: The legacy Python engine and fallback system.
+   - FUNCTION: 
+     1. Loads language definitions from `.lang` files.
+     2. Simulates the "Erik Convergence" algorithm.
+     3. Now utilizes `language_math.py` for modularized counting logic (Western, Sumerian, Hebrew).
+
+C. analyze_waveforms.py
+   - PURPOSE: Batch processor for cross-language analysis.
+   - FUNCTION:
+     1. Generates the "Main Trunk" (dominant path) for every language in the library.
+     2. Converts these paths into "Waveforms" (alternating Peak/Valley values).
+
+D. analyze_streams.py
+   - PURPOSE: Detailed English analysis.
+   - FUNCTION: 
+     1. Maps every integer from 0-100 to its entry point on the English Main Trunk.
+     2. Classifies numbers into "Tributaries" based on where they merge.
+
+3. GO OPTIMIZATIONS (NEW)
+-------------------------
+The core topological analysis engine has been rewritten in Go for extreme performance.
+
+A. lta_core (Source: go_core/lta_core.go)
+   - REPLACES: The internal simulation loop of the Python app.
+   - FUNCTION: 
+     - Parses `.lang` files with strict typing.
+     - Implements native Base-60 (Sumerian) and Gematria (Hebrew) math logic without Python interpreter overhead.
+     - Outputs raw JSON data for the wrapper to consume.
+   - COMPILATION: `cd go_core && go build -o lta_core lta_core.go`
+
+4. MAINTENANCE & UTILITIES
+--------------------------
+A. manage_languages.py (NEW)
+   - PURPOSE: Unified tool for language file maintenance.
+   - COMMANDS:
+     - `list`: Lists all languages in the repo.
+     - `validate`: scans all files for script errors or invalid syntax.
+     - `set_math <lang> <type>`: Updates the `math_type` (e.g., western, sumerian) in the file header.
+
+B. language_math.py (NEW)
+   - PURPOSE: Centralized Python math logic.
+   - FUNCTION: Replaces the hardcoded functions in the old app. Contains classes for `WesternProcessor`, `SumerianProcessor`, and `HebrewProcessor`.
+
+C. manage_corpus.py (NEW)
+   - PURPOSE: Utilities for preparing text files for forensic analysis.
+   - COMMANDS:
+     - `list`: Inventory of all `.txt` files in `test_documents/`.
+     - `import_abbyy <xml> <txt>`: Extracts and cleans text from Abbyy XML formats (common in Archive.org downloads), removing OCR artifacts and headers.
+     - `segment <file>`: Analyzes a book for "Bias Injection Points". It automatically splits the file into:
+       1. Front Matter (Editor's Preface, Translator's Intro, etc.).
+       2. The Main Text (detected by Chapter starts).
+       This allows distinct topological analysis of the translator vs. the author.
+
+5. RECENT REPAIRS
+-----------------
+During the audit for Version 4.0, the following critical upgrades were made:
+
+1. Consolidated mathematical logic into `language_math.py`.
+2. Replaced redundant repair scripts with `manage_languages.py`.
+3. Fixed syntax errors in `lta_core.go` related to `else` block formatting.
+4. Validated and updated `sumerian.lang` and `hebrew.lang` to use their native math systems.
+5. Added `manage_corpus.py` to streamline the importing of raw OCR data.
+6. Implemented automatic text segmentation to isolate translator bias.
+
+6. USAGE INSTRUCTIONS
+---------------------
+To run the analysis (Auto-detects Go/Python):
+   python lta_wrapper.py <path_to_lang_file>
+
+To manage languages:
+   python manage_languages.py list
+   python manage_languages.py validate
+
+To manage corpus:
+   python manage_corpus.py list
+   python manage_corpus.py import_abbyy raw.xml clean.txt
+   python manage_corpus.py segment clean.txt
+
+To compile the accelerator:
+   cd go_core
+   go build -o lta_core lta_core.go
+
+
+====================================================================
+End of Manual

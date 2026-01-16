@@ -1,0 +1,30 @@
+name: Hungarian
+0: nulla
+1: egy
+2: ketto
+3: harom
+4: negy
+5: ot
+6: hat
+7: het
+8: nyolc
+9: kilenc
+10: tiz
+11: tizenegy
+12: tizenketto
+20: husz
+30: harminc
+40: negyven
+50: otven
+60: hatvan
+70: hetven
+80: nyolcvan
+90: kilencven
+100: szaz
+1000: ezer
+1000000: millio
+hundred: szaz
+thousand: ezer
+million: millio
+ten_sep: 
+hundred_sep: 

@@ -1,0 +1,25 @@
+name: Ancient Hebrew Gematria
+# This file triggers the HebrewGematriaProcessor in language_math.py
+# which uses standard Mispar HaPanim values for the Hebrew words of numbers.
+
+1: אחד
+2: שנים
+3: שלשה
+4: ארבעה
+5: חמשה
+6: ששה
+7: שבעה
+8: שמנה
+9: תשעה
+10: עשר
+20: עשרים
+30: שלשים
+40: ארבעים
+50: חמשים
+60: ששים
+70: שבעים
+80: שמנים
+90: תשעים
+100: מאה
+hundred: מאה
+ten_sep: ו

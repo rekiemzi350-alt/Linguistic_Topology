@@ -1,0 +1,27 @@
+name: Indonesian
+# Generated Language File
+
+ten_sep:  
+
+1: satu
+2: dua
+3: tiga
+4: empat
+5: lima
+6: enam
+7: tujuh
+8: delapan
+9: sembilan
+10: sepuluh
+11: sebelas
+20: dua puluh
+100: seratus
+1000: seribu
+20: dua puluh # Stall Fix
+30: tiga puluh # Stall Fix
+40: empat puluh # Stall Fix
+50: lima puluh # Stall Fix
+60: enam puluh # Stall Fix
+70: tujuh puluh # Stall Fix
+80: delapan puluh # Stall Fix
+90: sembilan puluh # Stall Fix

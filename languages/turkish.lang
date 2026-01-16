@@ -1,0 +1,43 @@
+name: Turkish
+# Generated Language File
+
+hundred: yuz
+ten_sep:  
+hundred_sep:  
+
+0: sifir
+1: bir
+2: iki
+3: uc
+4: dort
+5: bes
+6: alti
+7: yedi
+8: sekiz
+9: dokuz
+10: on
+11: on bir
+12: on iki
+13: on uc
+14: on dort
+15: on bes
+16: on alti
+17: on yedi
+18: on sekiz
+19: on dokuz
+20: yirmi
+30: otuz
+40: kirk
+50: elli
+60: altmis
+70: yetmis
+80: seksen
+90: doksan
+20: yirmi # Stall Fix
+30: otuz # Stall Fix
+40: kırk # Stall Fix
+50: elli # Stall Fix
+60: altmış # Stall Fix
+70: yetmiş # Stall Fix
+80: seksen # Stall Fix
+90: doksan # Stall Fix

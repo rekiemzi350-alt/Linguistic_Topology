@@ -1,0 +1,27 @@
+name: Armenian (Eastern)
+# Generated Language File
+
+ten_sep: 
+
+1: մեկ
+2: երկու
+3: երեք
+4: չորս
+5: հինգ
+6: վեց
+7: յոթ
+8: ութ
+9: ինը
+10: տասը
+11: տասնմեկ
+20: քսան
+100: հարյուր
+1000: հազար
+20: քսան # Stall Fix
+30: երեսուն # Stall Fix
+40: քառասուն # Stall Fix
+50: հիսուն # Stall Fix
+60: վաթսուն # Stall Fix
+70: յոթանասուն # Stall Fix
+80: ութսուն # Stall Fix
+90: իննสուն # Stall Fix

@@ -1,0 +1,18 @@
+name: Samaritan Aramaic
+# Generated Language File
+
+
+1: ࠇࠃࠄ
+2: ࠕࠓࠉࠌ
+3: ࠕࠋࠕ
+4: ࠀࠓࠁࠏ
+5: ࠇࠌࠔ
+10: ࠎࠒࠓ
+11: ࠎࠒࠓ ࠇࠃࠄ # Auto-Generated Generic Patch
+12: ࠎࠒࠓ ࠕࠓࠉࠌ # Auto-Generated Generic Patch
+13: ࠎࠒࠓ ࠕࠋࠕ # Auto-Generated Generic Patch
+14: ࠎࠒࠓ ࠀࠓࠁࠏ # Auto-Generated Generic Patch
+15: ࠎࠒࠓ ࠇࠌࠔ # Auto-Generated Generic Patch
+11: ࠀࠇࠓ ࠏࠜࠔࠔࠓ # Accurate Fix
+12: ࠕࠓࠉ ࠏࠜࠔࠔࠓ # Accurate Fix
+100: ࠌࠀࠄ # Accurate Fix

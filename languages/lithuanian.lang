@@ -1,0 +1,34 @@
+name: Lithuanian
+# Generated Language File
+
+hundred: šimtas
+ten_sep:  
+
+0: nulis
+1: vienas
+2: du
+3: trys
+4: keturi
+5: penki
+6: šeši
+7: septyni
+8: aštuoni
+9: devyni
+10: dešimt
+11: vienuolika
+12: dvylika
+13: trylika
+14: keturiolika
+15: penkiolika
+16: šešiolika
+17: septyniolika
+18: aštuoniolika
+19: devyniolika
+20: dvidešimt
+30: trisdešimt
+40: keturiasdešimt
+50: penkiasdešimt
+60: šešiasdešimt
+70: septyniasdešimt
+80: aštuoniasdešimt
+90: devyniasdešimt

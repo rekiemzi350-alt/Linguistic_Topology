@@ -1,0 +1,34 @@
+name: Gaelic (Scottish)
+# Generated Language File
+
+hundred: ceud
+ten_sep:  air 
+
+0: neoni
+1: aon
+2: dhà
+3: trì
+4: ceithir
+5: còig
+6: sia
+7: seachd
+8: ochd
+9: naoi
+10: deich
+11: deichairaon # Auto-Generated Generic Patch
+12: deichairdhà # Auto-Generated Generic Patch
+13: deichairtrì # Auto-Generated Generic Patch
+14: deichairceithir # Auto-Generated Generic Patch
+15: deichaircòig # Auto-Generated Generic Patch
+16: deichairsia # Auto-Generated Generic Patch
+17: deichairseachd # Auto-Generated Generic Patch
+18: deichairochd # Auto-Generated Generic Patch
+19: deichairnaoi # Auto-Generated Generic Patch
+20: fichead
+30: trithead
+40: ceathrad
+50: caogad
+60: siagad
+70: seachad
+80: ochdad
+90: naochad

@@ -1,0 +1,34 @@
+name: Provencal
+# Generated Language File
+
+hundred: cent
+ten_sep:  e 
+
+0: zèro
+1: un
+2: dos
+3: tres
+4: quatre
+5: cinc
+6: sièis
+7: sèt
+8: uèch
+9: nòu
+10: dètz
+11: dètzeun # Auto-Generated Generic Patch
+12: dètzedos # Auto-Generated Generic Patch
+13: dètzetres # Auto-Generated Generic Patch
+14: dètzequatre # Auto-Generated Generic Patch
+15: dètzecinc # Auto-Generated Generic Patch
+16: dètzesièis # Auto-Generated Generic Patch
+17: dètzesèt # Auto-Generated Generic Patch
+18: dètzeuèch # Auto-Generated Generic Patch
+19: dètzenòu # Auto-Generated Generic Patch
+20: vint
+30: trenta
+40: quaranta
+50: cinquanta
+60: seissanta
+70: setanta
+80: ochanta
+90: nonanta

@@ -1,0 +1,30 @@
+name: Erse (Irish)
+# Generated Language File
+
+hundred: céad
+ten_sep:  a 
+
+0: náid
+1: haon
+2: dó
+3: trí
+4: ceathair
+5: cúig
+6: sé
+7: seacht
+8: hocht
+9: naoi
+10: deich
+11: haon déag
+20: fiche
+30: tríocha
+40: daichead
+50: caoga
+60: seasca
+70: seachtó
+80: ochtó
+90: nócha
+11: aon déag # Accurate Fix
+12: dó dhéag # Accurate Fix
+13: trí déag # Accurate Fix
+100: céad # Accurate Fix

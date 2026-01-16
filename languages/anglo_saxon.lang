@@ -1,0 +1,33 @@
+name: Anglo-Saxon
+# Generated Language File
+
+hundred: hund
+ten_sep:  ond 
+
+1: ān
+2: twēgen
+3: þrīe
+4: fēower
+5: fīf
+6: siex
+7: seofon
+8: eahta
+9: nigon
+10: tīen
+11: endleofan
+12: twelf
+13: threotine
+14: feowertine
+15: fiftine
+16: sixtine
+17: seofontine
+18: eahtatine
+19: nigontine
+20: twentig
+30: þrītig
+40: fēowertig
+50: fīftig
+60: siextig
+100: hund
+90: hundnigontig # Stall Fix
+100: hundred # Stall Fix

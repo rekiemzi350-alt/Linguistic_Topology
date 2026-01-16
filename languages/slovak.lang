@@ -1,0 +1,34 @@
+name: Slovak
+# Generated Language File
+
+hundred: sto
+ten_sep:  
+
+0: nula
+1: jeden
+2: dva
+3: tri
+4: štyri
+5: päť
+6: šest
+7: sedem
+8: osem
+9: deväť
+10: desať
+11: jedenásť
+12: dvanásť
+13: trinásť
+14: štrnásť
+15: pätnásť
+16: šestnásť
+17: sedemnásť
+18: osemnásť
+19: devätnásť
+20: dvadsat
+30: tridsat
+40: štyridsat
+50: päťdesiat
+60: šestdesiat
+70: sedemdesiat
+80: osemdesiat
+90: deväťdesiat

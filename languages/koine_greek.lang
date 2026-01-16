@@ -1,0 +1,24 @@
+name: Koine Greek
+# Generated Language File
+
+hundred: ἑκατόν
+ten_sep:  καὶ 
+
+1: εἷς
+2: δύο
+3: τρεῖς
+4: τέσσαρες
+5: πέντε
+10: δέκα
+11: δέκακαὶεἷς # Auto-Generated Generic Patch
+12: δέκακαὶδύο # Auto-Generated Generic Patch
+13: δέκακαὶτρεῖς # Auto-Generated Generic Patch
+14: δέκακαὶτέσσαρες # Auto-Generated Generic Patch
+15: δέκακαὶπέντε # Auto-Generated Generic Patch
+20: εἴκοσι
+100: ἑκατόν
+16: ἑκκαίδεκα # Accurate Fix
+17: ἑπτακαίδεκα # Accurate Fix
+18: ὀκτωκαίδεκα # Accurate Fix
+19: ἐννεακαίδεκα # Accurate Fix
+100: ἑκατόν # Accurate Fix

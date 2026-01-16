@@ -1,0 +1,8 @@
+Sequence,Complexity,Mode,Words,T1_Raw,T1_Plot,T2_Raw,T2_Plot
+0,Simple,Narrative,6,98,-98,667.13,667.13
+1,Simple,Conversation,3,42,-42,269.79,269.79
+2,Simple,Narrative,4,43,43,259.78,259.78
+3,Simple,Narrative,5,73,73,467.05,467.05
+4,Complex,Narrative,4,50,-50,266.56,-266.56
+5,Complex,Narrative,12,157,157,817.47,817.47
+6,Simple,Narrative,3,64,-64,442.16,-442.16

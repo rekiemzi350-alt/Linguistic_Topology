@@ -1,0 +1,26 @@
+name: Kinyarwanda
+# Generated Language File
+
+ten_sep:  na 
+
+1: rimwe
+2: kabiri
+3: gatatu
+4: kane
+5: gatanu
+6: gatandatu
+7: karindwi
+8: umunane
+9: icyenda
+10: icumi
+11: icuminarimwe # Auto-Generated Generic Patch
+12: icuminakabiri # Auto-Generated Generic Patch
+13: icuminagatatu # Auto-Generated Generic Patch
+14: icuminakane # Auto-Generated Generic Patch
+15: icuminagatanu # Auto-Generated Generic Patch
+16: icuminagatandatu # Auto-Generated Generic Patch
+17: icuminakarindwi # Auto-Generated Generic Patch
+18: icuminaumunane # Auto-Generated Generic Patch
+19: icuminaicyenda # Auto-Generated Generic Patch
+20: makumyabiri
+100: ijana
