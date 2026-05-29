@@ -1,6 +1,7 @@
 import os
 import re
 import math
+import lta_config
 
 def get_word_weight(word):
     return sum(ord(c) - 96 for c in word.lower() if 'a' <= c <= 'z')
@@ -16,8 +17,8 @@ def analyze(filepath):
     variance = sum((x - mean)**2 for x in weights) / len(weights)
     return {"mean": mean, "std": math.sqrt(variance), "count": len(weights)}
 
-sd_path = "/data/data/com.termux/files/home/coffee/test_documents/Secret_Doctrine_Vol1.txt"
-modern_path = "/data/data/com.termux/files/home/coffee/test_documents/the_QURAN-abdel-haleem-ebook-english.txt"
+sd_path = os.path.join(lta_config.DEFAULT_DOCS_DIR, "Secret_Doctrine_Vol1.txt")
+modern_path = os.path.join(lta_config.DEFAULT_DOCS_DIR, "the_QURAN-abdel-haleem-ebook-english.txt")
 
 sd_stats = analyze(sd_path)
 modern_stats = analyze(modern_path)

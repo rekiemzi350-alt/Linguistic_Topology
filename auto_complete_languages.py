@@ -1,4 +1,5 @@
 import os
+import lta_config
 
 # Dictionary of missing numbers for key languages
 # Format: "filename_part": {num: "word"}
@@ -69,7 +70,7 @@ def update_file(filepath, data):
         return False
 
 def main():
-    base_dir = "/data/data/com.termux/files/home/coffee/linguistic_topology_repo/languages/"
+    base_dir = lta_config.DEFAULT_LANGS_DIR
     count = 0
     
     for filename in os.listdir(base_dir):

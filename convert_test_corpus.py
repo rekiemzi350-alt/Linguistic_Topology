@@ -4,15 +4,16 @@ import zipfile
 import re
 import subprocess
 import time
+import lta_config
 
 # Configuration
-DEST_DIR = "/data/data/com.termux/files/home/coffee/test_documents/"
-REPORT_DIR = "/data/data/com.termux/files/home/coffee/test_results/"
+DEST_DIR = lta_config.DEFAULT_DOCS_DIR
+REPORT_DIR = lta_config.get_output_dir()
 REPORT_FILE = os.path.join(REPORT_DIR, "conversion_report.txt")
 MAIN_STORAGE_REPORT_FILE = "/sdcard/Documents/test_results/conversion_report.txt"
 
 # Ensure report directories exist
-os.makedirs(REPORT_DIR, exist_ok=True)
+lta_config.ensure_dir(REPORT_DIR)
 os.makedirs(os.path.dirname(MAIN_STORAGE_REPORT_FILE), exist_ok=True)
 
 def calculate_accuracy(text):

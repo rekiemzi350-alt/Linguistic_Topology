@@ -1,22 +1,14 @@
-<<<<<<< HEAD
-
 import os
 import sys
 import glob
 import subprocess
 import time
-=======
-import os
-import sys
-import subprocess
-import glob
-import time
-import lta_converters
+import lta_config
 
 # --- Configuration & Constants ---
-APP_TITLE = "LTA Toolkit"
-APP_VERSION = "3.2" # Incremented version
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+APP_TITLE = "GEMINI LINGUISTIC TOOLKIT"
+APP_VERSION = "4.0"
+BASE_DIR = lta_config.BASE_DIR
 
 # Allowed File Extensions
 DOC_EXTENSIONS = {
@@ -29,245 +21,43 @@ IMG_EXTENSIONS = {
 ALL_EXTENSIONS = DOC_EXTENSIONS.union(IMG_EXTENSIONS)
 
 # Global State for Search Paths
-SEARCH_PATHS = [BASE_DIR]
-
-# --- Helper Functions ---
->>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
+SEARCH_PATHS = [BASE_DIR, lta_config.DEFAULT_DOCS_DIR]
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-<<<<<<< HEAD
-def get_languages():
-    return sorted(glob.glob("linguistic_topology_repo/languages/*.lang") + glob.glob("*.lang"))
-
-def run_wrapper(lang_file):
-    print(f"\n[Analysing {lang_file} with lta_wrapper...]")
-    subprocess.run(["python", "lta_wrapper.py", lang_file])
-    input("\nPress Enter to continue...")
-
-def run_forensics():
-    langs = get_languages()
-    if len(langs) < 2:
-        print("Not enough language files found.")
-        return
-
-    print("\nSelect Baseline Language:")
-    for i, l in enumerate(langs):
-        print(f"{i+1}. {l}")
-    
-    try:
-        b_idx = int(input("Choice: ")) - 1
-        base = langs[b_idx]
-        
-        print("\nSelect Target Language:")
-        t_idx = int(input("Choice: ")) - 1
-        target = langs[t_idx]
-        
-        print(f"\n[Comparing {base} vs {target}]")
-        # Wrapper doesn't support 2 args yet, calling python app directly for now or updating wrapper
-        # The wrapper I wrote only takes 1 arg. I should probably update the wrapper later, 
-        # but for now calling the python app directly for forensics is safe as Go core handles single lang analysis.
-        subprocess.run(["python", "linguistic_topology_app.py", base, target])
-        input("\nPress Enter to continue...")
-        
-    except (ValueError, IndexError):
-        print("Invalid selection.")
-        time.sleep(1)
-
-def main_menu():
-    while True:
-        clear_screen()
-        print("==========================================")
-        print("   GEMINI LINGUISTIC TOOLKIT (v4.0)       ")
-        print("==========================================")
-        print("1. Analyze a Language (Turbo Mode)")
-        print("2. Forensic Topology Comparison")
-        print("3. Language Management (List/Validate)")
-        print("4. Corpus Management")
-        print("5. Exit")
-        print("==========================================")
-        
-        choice = input("Select an option: ")
-        
-        if choice == '1':
-            langs = get_languages()
-            print("\nAvailable Languages:")
-            for i, l in enumerate(langs):
-                print(f"{i+1}. {os.path.basename(l)}")
-            try:
-                idx = int(input("\nSelect Language Number: ")) - 1
-                if 0 <= idx < len(langs):
-                    run_wrapper(langs[idx])
-                else:
-                    print("Invalid index.")
-            except ValueError:
-                print("Invalid input.")
-                
-        elif choice == '2':
-            run_forensics()
-            
-        elif choice == '3':
-            print("\n1. List Languages")
-            print("2. Validate Languages")
-            sub = input("Choice: ")
-            if sub == '1':
-                subprocess.run(["python", "manage_languages.py", "list"])
-            elif sub == '2':
-                subprocess.run(["python", "manage_languages.py", "validate"])
-            input("\nPress Enter to continue...")
-            
-        elif choice == '4':
-            print("\n1. List Corpus Files")
-            print("2. Import Abbyy XML")
-            print("3. Segment Text (Bias Isolation)")
-            sub = input("Choice: ")
-            if sub == '1':
-                subprocess.run(["python", "manage_corpus.py", "list"])
-            elif sub == '2':
-                xml_in = input("Input XML path: ")
-                txt_out = input("Output TXT path: ")
-                subprocess.run(["python", "manage_corpus.py", "import_abbyy", xml_in, txt_out])
-            elif sub == '3':
-                fpath = input("File to segment: ")
-                subprocess.run(["python", "manage_corpus.py", "segment", fpath])
-            input("\nPress Enter to continue...")
-
-        elif choice == '5':
-            print("Exiting...")
-            sys.exit(0)
-        else:
-            print("Invalid choice.")
-            time.sleep(1)
-
-if __name__ == "__main__":
-    main_menu()
-=======
 def print_header():
     clear_screen()
     print("=" * 50)
-    print(f"{APP_TITLE} v{APP_VERSION}")
+    print(f"   {APP_TITLE} (v{APP_VERSION})")
     print("=" * 50)
-    print("CORE MANDATES:")
-    print("1. NO TRANSLITERATION: All analysis uses native scripts.")
-    print("2. NO ANACHRONISMS: Ancient systems respect their era.")
-    print("3. TEMPORAL ACCURACY: Waveforms match historical context.")
+    print(f"SESSION ID: {lta_config.get_session_id()}")
+    print(f"OUTPUT DIR: {lta_config.get_output_dir()}")
     print("-" * 50)
 
 def pause():
-    input("\nPress Enter to return to menu...")
+    input("\nPress Enter to continue...")
 
-def list_files(pattern):
-    """Legacy helper for .lang files in base dir."""
-    return sorted(glob.glob(pattern))
-
-def request_setup():
-    """
-    1) Requests permission (simulation/user prompt).
-    2) Asks for search directories.
-    """
-    global SEARCH_PATHS
-    print_header()
-    print("INITIAL SETUP & PERMISSIONS")
-    print("-" * 50)
-    print("1. PERMISSION CHECK:")
-    print("   Please ensure this application has access to read all files.")
-    print("   (On Android/Termux, run 'termux-setup-storage' if needed.)")
-    input("\n   Press Enter to confirm permissions are granted...")
-
-    print("\n2. CONFIGURE SEARCH DIRECTORIES:")
-    print("   Enter the full paths to the folders you wish to scan for documents.")
-    print("   Separate multiple paths with a comma.")
-    print(f"   (Default: {BASE_DIR})")
-    
-    user_input = input("\n   Paths > ").strip()
-    
-    if user_input:
-        paths = [p.strip() for p in user_input.split(',')]
-        valid_paths = []
-        for p in paths:
-            exp_p = os.path.expanduser(p)
-            if os.path.isdir(exp_p):
-                valid_paths.append(exp_p)
-            else:
-                print(f"   [WARNING] Path not found, ignoring: {p}")
-        
-        if valid_paths:
-            SEARCH_PATHS = valid_paths
-            print(f"\n   -> Updated search paths: {SEARCH_PATHS}")
-        else:
-            print("\n   -> No valid paths provided. Keeping default.")
-    else:
-        print("\n   -> Keeping default path.")
-    time.sleep(1)
-
-def scan_files(allowed_extensions):
-    """
-    Scans SEARCH_PATHS for files matching a set of extensions.
-    Returns a sorted list of absolute file paths.
-    """
-    found_files = []
-    print("\n[Scanning directories...]")
-    
-    for path in SEARCH_PATHS:
-        for root, dirs, files in os.walk(path):
-            for file in files:
-                ext = os.path.splitext(file)[1].lower()
-                if ext in allowed_extensions:
-                    found_files.append(os.path.join(root, file))
-    
-    return sorted(found_files)
-
-def select_file(prompt_text="Select File", allowed_extensions=ALL_EXTENSIONS):
-    """
-    Helper to list and select a file from the scanned set.
-    """
-    docs = scan_files(allowed_extensions)
-    if not docs:
-        print("\nNo matching files found in configured paths.")
-        return None
-
-    print(f"\nAvailable Files ({len(docs)} found):")
-    max_display = 50
-    for i, doc in enumerate(docs):
-        if i >= max_display:
-            print(f"... and {len(docs) - max_display} more.")
-            break
-        display_name = doc
-        for sp in SEARCH_PATHS:
-            if doc.startswith(sp):
-                display_name = os.path.relpath(doc, sp)
-                break
-        print(f"{i+1}. {display_name}")
-    
-    sel = input(f"\n{prompt_text} (Number): ").strip()
-    if sel.isdigit() and 1 <= int(sel) <= len(docs):
-        return docs[int(sel)-1]
-    return None
-
-def view_file(filepath):
-    """Safely prints the content of a text file to the console."""
-    if not os.path.exists(filepath):
-        print(f"\nError: Documentation file '{filepath}' not found.")
-        pause()
-        return
-    
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            clear_screen()
-            print(f"--- Viewing: {filepath} ---\n")
-            print(f.read())
-            print("\n--- End of File ---")
-    except Exception as e:
-        print(f"Error reading file: {e}")
-    
-    pause()
+def get_languages():
+    # Look in local languages dir and current dir
+    langs = glob.glob(os.path.join(lta_config.DEFAULT_LANGS_DIR, "*.lang"))
+    langs += glob.glob("*.lang")
+    return sorted(list(set(langs)))
 
 def run_script(script_name, args=None):
     if not os.path.exists(script_name):
-        print(f"\nError: Script '{script_name}' not found.")
-        pause()
-        return
+        # Try finding it in the repo root if it's not in the current dir
+        potential_path = os.path.join(BASE_DIR, script_name)
+        if os.path.exists(potential_path):
+            script_name = potential_path
+        else:
+            print(f"\nError: Script '{script_name}' not found.")
+            pause()
+            return
+
+    env = os.environ.copy()
+    env["LTA_OUTPUT_DIR"] = lta_config.get_output_dir()
+    env["PYTHONPATH"] = BASE_DIR + (os.pathsep + env.get("PYTHONPATH", "") if env.get("PYTHONPATH") else "")
 
     cmd = [sys.executable, script_name]
     if args:
@@ -275,7 +65,7 @@ def run_script(script_name, args=None):
     
     print(f"\n[EXEC] Running: {' '.join(cmd)}\n")
     try:
-        subprocess.run(cmd, check=False)
+        subprocess.run(cmd, env=env, check=False)
     except KeyboardInterrupt:
         print("\nProcess interrupted by user.")
     except Exception as e:
@@ -283,191 +73,154 @@ def run_script(script_name, args=None):
     
     pause()
 
+def scan_files(allowed_extensions):
+    found_files = []
+    for path in SEARCH_PATHS:
+        if not os.path.exists(path): continue
+        for root, dirs, files in os.walk(path):
+            for file in files:
+                ext = os.path.splitext(file)[1].lower()
+                if ext in allowed_extensions:
+                    found_files.append(os.path.join(root, file))
+    return sorted(list(set(found_files)))
+
+def select_file(prompt_text="Select File", allowed_extensions=ALL_EXTENSIONS):
+    docs = scan_files(allowed_extensions)
+    if not docs:
+        print("\nNo matching files found.")
+        return None
+
+    print(f"\nAvailable Files ({len(docs)} found):")
+    for i, doc in enumerate(docs):
+        print(f"{i+1}. {os.path.basename(doc)} ({os.path.dirname(doc)})")
+    
+    sel = input(f"\n{prompt_text} (Number): ").strip()
+    if sel.isdigit() and 1 <= int(sel) <= len(docs):
+        return docs[int(sel)-1]
+    return None
+
 # --- Menu Functions ---
 
 def menu_topology():
     while True:
         print_header()
         print("TOPOLOGY & CONVERGENCE")
-        print("1. Analyze Language Structure (.lang files)")
-        print("2. Compare Foundational Languages (Hardcoded)")
-        print("3. Run Extended Trace (Sumerian/Greek)")
-        print("4. Analyze Corporate Topology")
-        print("5. Verify Convergence for Seeds 0-13")
+        print("1. Analyze Language Structure (.lang)")
+        print("2. Forensic Topology Comparison (Baseline vs Target)")
+        print("3. Language Management (List/Validate)")
+        print("4. Extended Topology (Sumerian/Greek/Corporate)")
         print("B. Back")
         
         choice = input("\nSelect Option: ").strip().upper()
         
         if choice == '1':
-            langs = list_files("*.lang")
+            langs = get_languages()
             if not langs:
                 print("\nNo .lang files found.")
                 pause()
                 continue
-            print("\nAvailable Languages:")
-            for i, l in enumerate(langs): print(f"{i+1}. {l}")
-            sel = input("\nSelect Language Number: ").strip()
-            if sel.isdigit() and 1 <= int(sel) <= len(langs):
-                run_script("linguistic_topology_app.py", [langs[int(sel)-1]])
+            for i, l in enumerate(langs): print(f"{i+1}. {os.path.basename(l)}")
+            try:
+                idx = int(input("\nSelect Language Number: ")) - 1
+                if 0 <= idx < len(langs):
+                    run_script("lta_wrapper.py", [langs[idx]])
+            except ValueError: pass
         elif choice == '2':
-            run_script("compare_languages.py")
+            langs = get_languages()
+            if len(langs) < 2:
+                print("Not enough language files found.")
+                pause()
+                continue
+            print("\nSelect Baseline Language:")
+            for i, l in enumerate(langs): print(f"{i+1}. {os.path.basename(l)}")
+            try:
+                b_idx = int(input("Choice: ")) - 1
+                print("\nSelect Target Language:")
+                t_idx = int(input("Choice: ")) - 1
+                run_script("linguistic_topology_app.py", [langs[b_idx], langs[t_idx]])
+            except (ValueError, IndexError): pass
         elif choice == '3':
-            run_script("extended_topology.py")
+            print("\n1. List Languages")
+            print("2. Validate Languages")
+            sub = input("Choice: ")
+            if sub == '1': run_script("manage_languages.py", ["list"])
+            elif sub == '2': run_script("manage_languages.py", ["validate"])
         elif choice == '4':
-            run_script("analyze_corporate_topology.py")
-        elif choice == '5':
-            run_script("verify_convergence_0_to_13.py")
+            print("\n1. Extended Topology (Historical)")
+            print("2. Corporate Topology")
+            sub = input("Choice: ")
+            if sub == '1': run_script("extended_topology.py")
+            elif sub == '2': run_script("analyze_corporate_topology.py")
         elif choice == 'B':
             break
 
 def menu_forensics():
-    """Menu for stylometry and code breaking."""
     while True:
         print_header()
         print("LINGUISTIC FORENSICS")
         print("1. Quick Fingerprint (Hoax/Root Source Detector)")
         print("2. Advanced Bias Detector")
-        print("3. Topological Stylometry Analyzer (Multi-Vector)")
-        print("4. Code Breaker Simulation")
+        print("3. Topological Stylometry Analyzer")
+        print("4. Analyze Book Structure (Large Scale)")
         print("B. Back")
 
         choice = input("\nSelect Option: ").strip().upper()
         if choice == 'B': break
 
-        if choice in ['1', '2', '3']:
+        if choice in ['1', '2', '3', '4']:
             doc = select_file("Select File for Analysis", allowed_extensions=DOC_EXTENSIONS)
-            if not doc:
-                pause()
-                continue
+            if not doc: continue
 
             script_map = {
                 '1': "hoax_root_source_detector.py",
                 '2': "advanced_stylometry_analyzer.py",
-                '3': "comprehensive_stylometry.py"
+                '3': "comprehensive_stylometry.py",
+                '4': "analyze_book_structure.py"
             }
-            script_to_run = script_map[choice]
+            run_script(script_map[choice], [doc])
 
-            # Handle EPUB extraction if needed
-            if doc.lower().endswith(".epub"):
-                 print("\n[INFO] EPUB detected. Extracting text for analysis...")
-                 lta_converters.convert_document_to_text(doc)
-                 doc = os.path.splitext(doc)[0] + ".txt"
-
-            run_script(script_to_run, [doc])
-        
-        elif choice == '4':
-            run_script("test_code_breaker.py")
-
-def menu_conversion():
-    """Menu for file conversion tools."""
+def menu_corpus():
     while True:
         print_header()
-        print("FILE CONVERSION TOOLS")
-        print("1. Convert Document to Plain Text (PDF, DOCX, EPUB)")
-        print("2. Convert Image Format (e.g., JPG to PNG)")
+        print("CORPUS MANAGEMENT")
+        print("1. List Corpus Files")
+        print("2. Import Abbyy XML")
+        print("3. Segment Text (Bias Isolation)")
         print("B. Back")
         
         choice = input("\nSelect Option: ").strip().upper()
+        if choice == 'B': break
         
-        if choice == '1':
-            doc = select_file("Select Document to Convert", allowed_extensions={'.pdf', '.docx', '.epub'})
-            if doc:
-                lta_converters.convert_document_to_text(doc)
-            pause()
-        
+        if choice == '1': run_script("manage_corpus.py", ["list"])
         elif choice == '2':
-            img = select_file("Select Image to Convert", allowed_extensions=IMG_EXTENSIONS)
-            if img:
-                print("\nSupported output formats: PNG, JPG, BMP, GIF, WEBP")
-                fmt = input("Enter desired output format: ").strip().lower()
-                if fmt:
-                    lta_converters.convert_image_format(img, fmt)
-                else:
-                    print("No format entered.")
-            pause()
-            
-        elif choice == 'B':
-            break
-
-def menu_theory():
-    """Menu to view the theoretical documents."""
-    while True:
-        print_header()
-        print("THEORY & DOCUMENTATION")
-        print("1. View Algorithm Explanation")
-        print("2. View Formal Definition of the Sequence")
-        print("3. View Evolution of the Theory")
-        print("4. View OEIS Submission Draft (v3)")
-        print("B. Back")
-        
-        choice = input("\nSelect Option: ").strip().upper()
-
-        if choice == '1': view_file("Algorithm_Explanation.txt")
-        elif choice == '2': view_file("Formal_Definition.txt")
-        elif choice == '3': view_file("Theory_Evolution.md")
-        elif choice == '4': view_file("OEIS_Submission_v3.txt")
-        elif choice == 'B': break
-
-def menu_settings():
-    """Menu to adjust application settings."""
-    while True:
-        print_header()
-        print("SETTINGS")
-        print(f"Current Search Paths: {SEARCH_PATHS}")
-        print("-" * 50)
-        print("1. Change Search Directories")
-        print("B. Back")
-        
-        choice = input("\nSelect Option: ").strip().upper()
-        
-        if choice == '1': request_setup()
-        elif choice == 'B': break
+            xml_in = input("Input XML path: ")
+            txt_out = input("Output TXT path: ")
+            run_script("manage_corpus.py", ["import_abbyy", xml_in, txt_out])
+        elif choice == '3':
+            fpath = input("File to segment: ")
+            run_script("manage_corpus.py", ["segment", fpath])
 
 def main_menu():
-    # Initial Setup Call
-    request_setup()
-
     while True:
         print_header()
         print("MAIN MENU")
-        print("1. Linguistic Topology Analysis")
-        print("2. Linguistic Forensics (Hoax ID)")
-        print("3. File Conversion Tools")
-        print("4. Theory & Documentation")
-        print("5. Settings")
-        print("H. Help")
+        print("1. Topology & Convergence")
+        print("2. Forensic Analysis (Hoax ID)")
+        print("3. Corpus Management")
+        print("4. Settings & Paths")
         print("X. Exit")
         
         choice = input("\nSelect Option: ").strip().upper()
         
         if choice == '1': menu_topology()
         elif choice == '2': menu_forensics()
-        elif choice == '3': menu_conversion()
-        elif choice == '4': menu_theory()
-        elif choice == '5': menu_settings()
-        elif choice == 'H': view_file("help.txt")
+        elif choice == '3': menu_corpus()
+        elif choice == '4':
+            print(f"\nSearch Paths: {SEARCH_PATHS}")
+            print(f"Output Directory: {lta_config.get_output_dir()}")
+            pause()
         elif choice == 'X':
-            clear_screen()
-            print(f"Exiting {APP_TITLE}.")
             break
-        else:
-            print("\nInvalid option.")
-            time.sleep(1)
 
 if __name__ == "__main__":
-    # Check for BeautifulSoup and install if missing
-    try:
-        import bs4
-    except ImportError:
-        print("BeautifulSoup4 not found. Attempting to install...")
-        try:
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "beautifulsoup4"])
-        except Exception as e:
-            print(f"Fatal: Failed to install 'beautifulsoup4'. Please install it manually. Error: {e}")
-            sys.exit(1)
-            
-    try:
-        main_menu()
-    except KeyboardInterrupt:
-        print("\nExiting...")
->>>>>>> 3f1231c7745b157981796b9bd27f4cf386fbef0c
+    main_menu()

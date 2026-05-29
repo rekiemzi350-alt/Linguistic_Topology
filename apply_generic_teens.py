@@ -1,6 +1,7 @@
 import os
+import lta_config
 
-LANG_DIR = "/data/data/com.termux/files/home/coffee/linguistic_topology_repo/languages/"
+LANG_DIR = lta_config.DEFAULT_LANGS_DIR
 
 def apply_patch(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:

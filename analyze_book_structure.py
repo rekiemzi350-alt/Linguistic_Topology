@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import lta_config
 
 # --- Text Cleaning & Parsing ---
 
@@ -83,12 +84,19 @@ def analyze_structure(filepath):
         return None
 
 def main():
-    target_dir = "/data/data/com.termux/files/home/coffee/test_documents/"
+    if len(sys.argv) > 1:
+        target_dir = sys.argv[1]
+    else:
+        target_dir = lta_config.DEFAULT_DOCS_DIR
     
     print(f"Scanning directory: {target_dir}\n")
     
     results = []
     
+    if not os.path.exists(target_dir):
+        print(f"Directory not found: {target_dir}")
+        return
+
     for filename in os.listdir(target_dir):
         if filename.endswith(".txt") and not filename.endswith(".results"):
             full_path = os.path.join(target_dir, filename)
@@ -96,13 +104,14 @@ def main():
             if res:
                 results.append(res)
     
-    # Save Summary CSV
-    with open("book_structure_report.csv", "w") as f:
+    # Save Summary CSV to sandboxed output dir
+    output_path = os.path.join(lta_config.get_output_dir(), "book_structure_report.csv")
+    with open(output_path, "w") as f:
         f.write("File,Chapters,Sentences,Avg_Len,Dialogue_Count\n")
         for r in results:
             f.write(f"{r['file']},{r['chapters']},{r['sentences']},{r['avg_len']:.2f},{r['dialogue']}\n")
             
-    print("\nBatch Analysis Complete. Summary saved to 'book_structure_report.csv'.")
+    print(f"\nBatch Analysis Complete. Summary saved to '{output_path}'.")
 
 if __name__ == "__main__":
     main()

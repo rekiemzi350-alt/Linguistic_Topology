@@ -1,12 +1,12 @@
 import os
 import sys
 import re
+import lta_config
 
 # Add repo to path
-sys.path.append('/data/data/com.termux/files/home/coffee/linguistic_topology_repo')
 from linguistic_topology_app import parse_lang_file
 
-LANG_DIR = "/data/data/com.termux/files/home/coffee/linguistic_topology_repo/languages/"
+LANG_DIR = lta_config.DEFAULT_LANGS_DIR
 
 def find_stall_point(path):
     try:

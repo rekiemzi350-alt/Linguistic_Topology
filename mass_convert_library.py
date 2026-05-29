@@ -2,11 +2,13 @@ import os
 import subprocess
 import zipfile
 import re
+import lta_config
 
 # Source files from the list generated
 INPUT_LIST = "files_to_convert.txt"
-OUTPUT_DIR = "/data/data/com.termux/files/home/coffee/test_documents/converted_library/"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+# Use a subfolder in the sandboxed output directory for converted library
+OUTPUT_DIR = os.path.join(lta_config.get_output_dir(), "converted_library")
+lta_config.ensure_dir(OUTPUT_DIR)
 
 def extract_epub(path, out_path):
     try:
@@ -26,6 +28,10 @@ def extract_epub(path, out_path):
     except: return False
 
 def main():
+    if not os.path.exists(INPUT_LIST):
+        print(f"Input list not found: {INPUT_LIST}")
+        return
+
     with open(INPUT_LIST, 'r') as f:
         files = [line.strip() for line in f.readlines()]
 
@@ -56,7 +62,7 @@ def main():
             else:
                 subprocess.run(["strings", path, ">", out_path], shell=True)
 
-    print("Conversion complete.")
+    print(f"Conversion complete. Files saved to: {OUTPUT_DIR}")
 
 if __name__ == "__main__":
     main()

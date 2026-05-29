@@ -1,6 +1,7 @@
 import os
+import lta_config
 
-LANG_DIR = "/data/data/com.termux/files/home/coffee/linguistic_topology_repo/languages/"
+LANG_DIR = lta_config.DEFAULT_LANGS_DIR
 
 # High-Precision Data for Ancient/Classical Languages
 data_fixes = {
