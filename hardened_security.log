@@ -1,0 +1,8 @@
+[Sat May 23 23:16:57 2026] HARDENED C-CORE MONITOR STARTED (High Efficiency Mode)
+[Sat May 23 23:20:42 2026] HARDENED C-CORE MONITOR STARTED (High Efficiency Mode)
+[Sat May 23 23:20:47 2026] NEUTRALIZED unauthorized process: link_monitor_go (PID: 23482)
+[Sat May 23 23:20:52 2026] NEUTRALIZED unauthorized process: link_monitor_go (PID: 23482)
+[Sat May 23 23:20:57 2026] NEUTRALIZED unauthorized process: link_monitor_go (PID: 23482)
+[Sat May 23 23:21:02 2026] NEUTRALIZED unauthorized process: link_monitor_go (PID: 23482)
+[Sat May 23 23:21:07 2026] NEUTRALIZED unauthorized process: link_monitor_go (PID: 23482)
+[Sat May 23 23:21:14 2026] HARDENED C-CORE MONITOR STARTED (High Efficiency Mode)
