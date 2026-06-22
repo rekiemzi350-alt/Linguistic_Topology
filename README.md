@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Gemini Linguistic Toolkit (GLT)
+# Seshat Analyzer Toolkit/App (SATA)
 
 An analytical suite for exploring "Linguistic Topology," "Waveform Structures," and the "Erik Convergence" algorithm across ancient and modern languages.
 
