@@ -1,17 +1,23 @@
 <<<<<<< HEAD
 # Seshat Analyzer Toolkit/App (SATA)
 
-An analytical suite for exploring "Linguistic Topology," "Waveform Structures," and the "Erik Convergence" algorithm across ancient and modern languages.
+An analytical suite for exploring the how much the structure of the different languages of humanity: a) reflects the culture they spring from, b) how much the 
+culture begins to conform to the strictures of the language once put into use, c) how far reaching the effects of language are into the everyday lives of the people who speak it and, d) whether it can be mathematically in a way that is useful in the computer science fields.
 
 ## Overview
-This toolkit provides a set of Python-based scripts designed to analyze how different languages converge into "Main Trunks" of logic or diverge into "Rebel Streams." It measures the "Convergence Velocity" of a language by calculating trajectories based on the native sign count (e.g., Sumerian Cuneiform) or letter count (e.g., English).
-
-The project has evolved to include tools for linguistic forensics and a comprehensive documentation of the theory's progression.
-
-## Core Concepts
-- **Convergence Velocity:** A metric for how quickly a language's number system unifies disparate starting points into a single trajectory. English has a high velocity (97% unity), while languages like Navajo are hyper-fractured (37% unity).
-- **Linguistic Forensics:** The application of stylometric analysis to identify the statistical "fingerprint" of a text, which can help determine authorship or detect translation artifacts.
-- **The "River" Model:** A metaphor for the flow of numbers under the `n -> n + L(n)` map, consisting of a Main Trunk, Tributaries, and Rebel Streams.
+This toolkit uses a mix of python, rust, kotlin and other code languages to attempt to forensically analyze written documents in any language to determine the following with scientifically acceptable accuracy with little or no supporting data beyond the work in question:
+     A. The era in which the work was written.
+     B. The percentage chance that the work was translated from another language.
+     C. The percentage chance that the author initially wrote the work in his or her native language.
+     D. The ratio of nuance lost in translation from one language to another.
+     E. The percentage chance that an anonymous document was written by a particular person.
+     F. In any work (historical or contemporary) in which the authorship is unknown or in question, the percentage chance of a specific person being the true author. This includes official documents often written by unnamed subordinates.
+     G. In published works or historical works compiled from multiple sources, how editor or translator bias might have altered the meaning and structure of a work, and how much editorial bias has done the same.
+     
+## Core Concept
+1. Everything in nature works off of harmonics capable of being mathematically mapped, therefore human behavior would necessarily be an increasingly complex extension of the natural harmonics of our environment.
+2. This being a near certainty, anything created by humanity would necessarily be infused with our encumbant harmonics as a group and as individuals in the case of inventors and creators.
+3. Due to our exceptionally complex natures as a species and as individuals, as well as our equally complex languages and the unique manner in which each person of their language, it should be possible to identify with a high degree of specificity, the answers to the categories listed in the overview above.
 
 ## How to Run
 In a Termux or Linux environment:
@@ -22,81 +28,8 @@ In a Termux or Linux environment:
    ```
 3. From the main menu, press 'H' to open the detailed help guide.
 
-## Toolkit Features
-The main menu provides access to several modules:
-
-1.  **Linguistic Topology Analysis:**
-    *   **NEW:** "Turbo Mode" Analysis (10x-100x faster) using the Go Core.
-    *   Analyze the convergence properties of languages using `.lang` files.
-    *   Run simulations for hardcoded languages (English, French, etc.).
-    *   Perform extended (1,000,000 step) traces on ancient languages to test for ultimate convergence.
-    *   Verify Convergence for Seeds 0-13: Explicitly demonstrates how early integers merge into the Main Trunk.
-
-2.  **Linguistic Forensics (Hoax ID):**
-    *   **Quick Fingerprint:** Generates a single statistical "fingerprint" for an entire text file.
-    *   **Advanced Bias Detector:** A more sophisticated tool that attempts to separate a translator's introduction from the main text. It generates two fingerprints to measure the "stylistic distance" between the translator and the original author's translated work, helping to detect bias.
-    *   **Topological Stylometry Analyzer:** A multi-vector forensic tool that partitions text by grammar and calculates the "Topological Weight" of part-of-speech categories. It detects author signatures by measuring the unconscious mathematical structure of their prose.
-    *   **Code Breaker Simulation:** A proof-of-concept demonstrating how topological analysis can be used to identify the source language of a number-based cipher.
-
-3.  **Theory & Documentation:**
-    *   View the core documents that explain the theory and its evolution, including the formal mathematical definition, the algorithm's step-by-step logic, and the final OEIS submission draft.
-
-## New Hybrid Architecture (v2.0)
-The toolkit now employs a hybrid Python/Go architecture for maximum performance.
-
-*   **lta_wrapper.py**: The main entry point. Automatically detects if the Go binary is compiled and uses it for heavy number-crunching. Falls back to Python if missing.
-    ```bash
-    python lta_wrapper.py <lang_file>
-    ```
-*   **go_core/**: Contains the source code for the high-performance Go engine.
-    *   Compile with: `cd go_core && go build -o lta_core lta_core.go`
-*   **manage_languages.py**: A unified utility for maintaining the language library.
-    *   `list`: Show all available languages.
-    *   `validate`: Check for syntax/script errors.
-    *   `set_math`: Update the math system (e.g., western, sumerian, hebrew).
-*   **manage_corpus.py**: Utilities for managing the text corpus.
-    *   `list`: List all text files in `test_documents/`.
-    *   `import_abbyy`: Convert Abbyy XML (from Archive.org) to clean text.
-    *   `segment`: Splits a text file into segments (Front Matter, Introduction, Chapters) to isolate translator bias from the original author's text.
-
----
-*Developed by Erik Mize, with assistance from the Gemini CLI, for research into the mathematical properties of language and its impact on civilizational stability.*
-=======
-# Linguistic Topology: Mapping the Erik Convergence
-
-**Developed by Erik Mize**
-
-## Overview
-Linguistic Topology is a computational framework for analyzing the structural "friction" and convergence properties within human language number systems. This project provides the tools to map **Erik Convergence**—the process by which integers, when iterated through a linguistic length-addition map, coalesce into primary attractor basins or "Rivers."
-
-## The Main Trunk (OEIS A391196)
-At the heart of this research is **OEIS Sequence A391196**, which identifies the primary trajectory of the English language under the iterative map:
-
-$$a_{n+1} = a_n + \text{Length}(\text{EnglishName}(a_n))$$
-
-### Key Topological Findings:
-*   **The Main Trunk:** A robust attractor basin that captures ~96% of all integers in the range [0, 100].
-*   **The Rebel Stream:** A distinct anomalous trajectory starting at seeds {83, 84, 93, 94} that remains independent for thousands of steps before merging with the Main Trunk at 2827.
-*   **Structural Identity:** A methodology for comparing "Convergence Velocity" across different languages (e.g., English, Sumerian, Ancient Greek) to identify shared linguistic roots or forensic identities.
-
-## Project Structure
-*   `linguistic_topology_app.py`: The core analysis engine and simulation tool.
-*   `languages/`: A library of `.lang` files defining the naming rules and scripts for various ancient and modern languages.
-
-## Usage
-To analyze a language's topology:
-```bash
-python linguistic_topology_app.py languages/english.lang
-```
-
-To perform a forensic comparison between two languages:
-```bash
-python linguistic_topology_app.py languages/english.lang languages/german.lang
-```
-
 ## Citation & Priority
 The patterns and methodologies contained herein were first identified by the author in 2003 and formally codified in 2025.
-Official OEIS Entry: [A391196](https://oeis.org/A391196)
 
 ## License
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license. This means you are free to use and share the research for non-commercial purposes, provided you credit Erik Mize. Commercial use requires explicit permission.
